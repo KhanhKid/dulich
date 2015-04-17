@@ -1,5 +1,5 @@
 ﻿<?php
-	$template = "";
+	$template = "/";
 ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
@@ -36,17 +36,17 @@
 			<div class="sub-header">
 				<p class="logo">
 					<a href="/">
-						<img src="<?php echo $template?>/images/logo.png" width="400">
+						<img src="<?php echo $template?>images/logo.png" width="170">
 					</a>
 				</p>
 				<div class="box-search-menu-top">
 					<div class="menu-top">
 						<ul class="menu-item">
 							<li class="gt">
-								<a href="/index/gioithieu">Giới thiệu</a>
+								<a href="/a/gioithieu">Giới thiệu</a>
 							</li>
 							<li>
-								<a href="http://peacetour.com.vn/lien-he.html">Liên hệ</a>
+								<a href="/a/lienhe">Liên hệ</a>
 							</li>
 						</ul>
 					</div>
@@ -60,27 +60,19 @@
 							<a href="/">Trang chủ</a>
 						</li>
 						<li>
-							<a class="main" href="/index/tourtrongnuoc" style="padding: 0px 9px;">Tour trong nước</a>
+							<a class="main" href="/a/tourtrongnuoc" style="padding: 0px 9px;">Tour trong nước</a>
 						</li>
 						<li>
-							<a class="main" href="/index/tourngoainuoc" style="padding: 0px 9px;">Tour nước ngoài</a>
+							<a class="main" href="/a/tourngoainuoc" style="padding: 0px 9px;">Tour nước ngoài</a>
 						</li>
 						<li>
-							<a class="main" href="http://www.peacetour.com.vn/khach-san.html" style="padding: 0px 9px;">Khách sạn</a>
-							<ul>
-								<li>
-									<a href="http://www.peacetour.com.vn/khach-san/khach-san-trong-nuoc-56.html">Khách sạn trong nước</a>
-								</li>
-								<li>
-									<a href="http://www.peacetour.com.vn/khach-san/khach-san-nuoc-ngoai-57.html">Khách sạn nước ngoài</a>
-								</li>
-							</ul>
+							<a class="main" href="/a/khachsan" style="padding: 0px 9px;">Khách sạn</a>
 						</li>
 						<li>
-							<a class="main" href="/index/dichvukhac" style="padding: 0px 9px;">Dịch vụ khác</a>
+							<a class="main" href="/a/dichvukhac" style="padding: 0px 9px;">Dịch vụ khác</a>
 						</li>
 						<li>
-							<a class="main" href="/index/thangcanh" style="padding: 0px 9px;">Danh lam thắng cảnh</a>
+							<a class="main" href="/a/thangcanh" style="padding: 0px 9px;">Danh lam thắng cảnh</a>
 						</li>
 					</ul>
 				</div>
@@ -96,22 +88,22 @@
 				<div class="menu-footer chrome_nav">
 					<ul id="nav" class="dropdown dropdown-horizontal dropdown-upward">
 						<li><a href="/">Trang chủ</a></li>
-						<li><a href="/index/tourtrongnuoc">Tour trong nước</a></li>
-						<li><a href="/index/tourngoainuoc">Tour nước ngoài</a></li>
-						<li><a href="/index/dichvukhac">Dịch vụ khác</a></li>
-						<li><a href="/index/thangcan">Danh lam thắng cảnh</a></li>
+						<li><a href="/a/tourtrongnuoc">Tour trong nước</a></li>
+						<li><a href="/a/tourngoainuoc">Tour nước ngoài</a></li>
+						<li><a href="/a/dichvukhac">Dịch vụ khác</a></li>
+						<li><a href="/a/thangcan">Danh lam thắng cảnh</a></li>
 					</ul>
 				</div>
 				<div class="sub-footer">
 					<div class="address">
 						<div class="logo">
 							<a href="/">
-								<img src="<?php echo $template?>/images/logo_f.png" width="85" pagespeed_url_hash="1005337039">
+								<img src="<?php echo $template?>images/logo_f.png" width="85" pagespeed_url_hash="1005337039">
 							</a>
 							<p class="slogun">Thắp sáng tình yêu việt</p>
 						</div>
 						<ul class="items-address">
-							<li class="name">CÔNG TY CỔ PHẦN DU LỊCH HÒA BÌNH VIỆT NAM</li>
+							<li class="name">CÔNG TY CỔ PHẦN DU LỊCH Sunrise TST Travel</li>
 							<li>60 Võ Văn Tần, quận 3, TP. Hồ Chí Minh, Việt Nam</li>
 							<li><strong>ĐT:</strong> (84.8) 3933.0228 (Xe), (84.8) 3930.4079 (Vé), (84.8) 3930.3325 (Tour)</li>
 							<li><strong>Email:</strong> peacetour@hcm.vnn.vn</li>

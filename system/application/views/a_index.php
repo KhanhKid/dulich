@@ -8,14 +8,15 @@
 		<div class="tour-in-water">
 			<div class="title">
 				<p class="text">
-					<a href="/index/tourtrongnuoc">Tour trong nước</a>
+					<a href="/a/tourtrongnuoc">Tour trong nước</a>
 				</p>
 				<p class="more">
-					<a href="/index/tourtrongnuoc">Xem thêm</a>
+					<a href="/a/tourtrongnuoc">Xem thêm</a>
 				</p>
 			</div>
 			<ul class="content">
 				<?php
+					//var_dump($tourtrongnuoc);die();
 					foreach ($tourtrongnuoc as $value) {
 						# code...
 				?>
@@ -27,7 +28,7 @@
 								}
 							?>
 							<a href="#">
-								<img src="/public/img/imgtour/<?php echo $value->img?>" width="150" height="100" alt="<?php echo $value->name?>">
+								<img src="/img/imgtour/<?php echo $value->img?>" width="150" height="100" alt="<?php echo $value->name?>">
 							</a>
 						</p>
 						<div class="info-tour">
@@ -48,8 +49,8 @@
 		</div>
 		<div class="tour-in-water">
 			<div class="title">
-				<p class="text"><a href="/index/tourkhuyenmai">Tour khuyến mãi</a></p>
-				<p class="more"><a href="/index/tourkhuyenmai">Xem thêm</a></p>
+				<p class="text"><a href="/a/tourkhuyenmai">Tour khuyến mãi</a></p>
+				<p class="more"><a href="/a/tourkhuyenmai">Xem thêm</a></p>
 			</div>
 			<ul class="content">
 				<?php
@@ -64,7 +65,7 @@
 								}
 							?>
 							<a href="#">
-								<img src="/public/img/imgtour/<?php echo $value->img?>" width="150" height="100" alt="<?php echo $value->name?>">
+								<img src="/img/imgtour/<?php echo $value->img?>" width="150" height="100" alt="<?php echo $value->name?>">
 							</a>
 						</p>
 						<div class="info-tour">
@@ -88,10 +89,10 @@
 		<div class="tour-in-water">
 			<div class="title">
 				<p class="text">
-					<a href="/index/tourngoainuoc">Tour ngoài nước</a>
+					<a href="/a/tourngoainuoc">Tour ngoài nước</a>
 				</p>
 				<p class="more">
-					<a href="/index/tourngoainuoc">Xem thêm</a>
+					<a href="/a/tourngoainuoc">Xem thêm</a>
 				</p>
 			</div>
 			<ul class="content">
@@ -107,7 +108,7 @@
 								}
 							?>
 							<a href="#">
-								<img src="/public/img/imgtour/<?php echo $value->img?>" width="150" height="100" alt="<?php echo $value->name?>">
+								<img src="/img/imgtour/<?php echo $value->img?>" width="150" height="100" alt="<?php echo $value->name?>">
 							</a>
 						</p>
 						<div class="info-tour">
@@ -128,8 +129,8 @@
 		</div>
 		<div class="tour-in-water">
 			<div class="title">
-				<p class="text"><a href="/index/tourfree">TOUR FREE AND EASY</a></p>
-				<p class="more"><a href="/index/tourfree">Xem thêm</a></p>
+				<p class="text"><a href="/a/tourfree">TOUR FREE AND EASY</a></p>
+				<p class="more"><a href="/a/tourfree">Xem thêm</a></p>
 			</div>
 			<ul class="content">
 				<?php
@@ -144,7 +145,7 @@
 								}
 							?>
 							<a href="#">
-								<img src="/public/img/imgtour/<?php echo $value->img?>" width="150" height="100" alt="<?php echo $value->name?>">
+								<img src="/img/imgtour/<?php echo $value->img?>" width="150" height="100" alt="<?php echo $value->name?>">
 							</a>
 						</p>
 						<div class="info-tour">
@@ -176,21 +177,21 @@
 		<div class="group-rent">
 			<div class="bg-title">
 				<p class="text">
-					<a href="/index/thutucvisa">THỦ TỤC VISA</a>
+					<a href="/a/thutucvisa">THỦ TỤC VISA</a>
 				</p>
 				<p class="more">
-					<a href="/index/thutucvisa" target="_self">Xem thêm</a>
+					<a href="/a/thutucvisa" target="_self">Xem thêm</a>
 				</p>
 			</div>
 			<div class="item0">
 				<p class="img">
-					<a href="http://peacetour.com.vn/xem-tin/thu-tuc-visa-0/visa-nhap-canh-ukraina-1663.html">
-						<img src="/public/img/imgvisa/<?php echo $visa_f->img ?>" width="150" alt="<?php echo $visa_f->title ?>">
+					<a href="/">
+						<img src="/img/imgvisa/<?php echo $visa_f->img ?>" width="150" alt="<?php echo $visa_f->title ?>">
 					</a>
 				</p>
 				<div class="info-service">
 					<p class="name">
-						<a href="http://peacetour.com.vn/xem-tin/thu-tuc-visa-0/visa-nhap-canh-ukraina-1663.html"> <?php echo $visa_f->title ?>
+						<a href="/"> <?php echo $visa_f->title ?>
 						</a>
 					</p>
 					<p class="summary"></p>
@@ -203,7 +204,7 @@
 						# code...
 						if($i != 0){
 				?>
-							<li><a href="http://peacetour.com.vn/xem-tin/thu-tuc-visa-0/visa-nhap-canh-viet-nam-1475.html"><?php echo $value->title ?></a></li>
+							<li><a href="/"><?php echo $value->title ?></a></li>
 				<?php
 						}
 						$i++;
@@ -230,12 +231,12 @@
 	<div class="box-news-index">
 	<div class="box-slide">
 	<div class="title-main">
-		<p class="text"><a href="http://peacetour.com.vn/tin-du-lich.html">TIN DU LỊCH</a></p>
-		<p class="more"><a href="http://peacetour.com.vn/tin-du-lich.html">Xem thêm</a></p>
+		<p class="text"><a href="/a/tindulich">TIN DU LỊCH</a></p>
+		<p class="more"><a href="/a/tindulich">Xem thêm</a></p>
 	</div>
 	<div class="item0">
 		<p class="img">
-			<a href="http://peacetour.com.vn/xem-tin/tin-du-lich-0/mo-cua-tham-quan-noi-vua-nguyen-doc-sach-2320.html"><img src="/public/img/imgnews/<?php echo $news_f->img ?>" width="296" alt="<?php echo $news_f->title ?>"></a>
+			<a href="http://peacetour.com.vn/xem-tin/tin-du-lich-0/mo-cua-tham-quan-noi-vua-nguyen-doc-sach-2320.html"><img src="/img/imgnews/<?php echo $news_f->img ?>" width="296" alt="<?php echo $news_f->title ?>"></a>
 		</p>
 		<p class="name"><a href="http://peacetour.com.vn/xem-tin/tin-du-lich-0/mo-cua-tham-quan-noi-vua-nguyen-doc-sach-2320.html"><?php echo $news_f->title ?></a>
 		</p>
@@ -249,7 +250,7 @@
 						if($i != 0){
 				?>
 					<li>
-						<a href="http://peacetour.com.vn/xem-tin/tin-du-lich-0/bao-tang-gia-lai-gioi-thieu-gan-7000-hien-vat-ve-vung-dat-tay-nguyen-2321.html"><?php echo $value->title ?></a>
+						<a href="/"><?php echo $value->title ?></a>
 					</li>
 				<?php
 						}
@@ -261,18 +262,18 @@
 	</div>
 	<div class="box-relative-news">
 	<div class="title-main">
-		<p class="text"><a href="http://peacetour.com.vn/nhat-ky-du-lich-hoa-binh.html">Nhật ký Du lịch Hoà Bình</a></p>
-		<p class="more"><a href="http://peacetour.com.vn/nhat-ky-du-lich-hoa-binh.html">Xem thêm</a></p>
+		<p class="text"><a href="/a/nhatky">Nhật ký Du lịch Hoà Bình</a></p>
+		<p class="more"><a href="/a/nhatky">Xem thêm</a></p>
 	</div>
 	<div class="item0">
 		<p class="img">
-			<a href="http://peacetour.com.vn/xem-tin/nhat-ky-du-lich-hoa-binh/cong-ty-du-lich-hoa-binh-vinh-du-don-nhan-huan-chuong-lao-dong-hang-nhi-tu-hao-25-nam-hinh-thanh-va-phat-trien-2217.html">
-				<img src="/public/img/imgdairy/<?php echo $dairy_f->img ?>" width="115" alt="<?php echo $dairy_f->title ?>">
+			<a href="/">
+				<img src="/img/imgdairy/<?php echo $dairy_f->img ?>" width="115" alt="<?php echo $dairy_f->title ?>">
 			</a>
 		</p>
 		<div class="info-news">
 			<p class="name">
-				<a href="http://peacetour.com.vn/xem-tin/nhat-ky-du-lich-hoa-binh/cong-ty-du-lich-hoa-binh-vinh-du-don-nhan-huan-chuong-lao-dong-hang-nhi-tu-hao-25-nam-hinh-thanh-va-phat-trien-2217.html"><?php echo $dairy_f->title ?></a>
+				<a href="/"><?php echo $dairy_f->title ?></a>
 			</p>
 		</div>
 	</div> 
