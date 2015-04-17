@@ -17,8 +17,8 @@ class Welcome extends Controller {
 		
 		$this->layouts->view('welcome_message');
 		$this->load->database();
-		$test = $this->db->query('SELECT * FROM `dairy`');
-		var_dump($test->result());die();
+		//$test = $this->db->query('SELECT * FROM `dairy`');
+		//var_dump($test->result());die();
 	}
 }
 
