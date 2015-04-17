@@ -9,7 +9,7 @@
 		<meta name="description" content="CÔNG TY DU LỊCH SUN RISE TST TRAVEL - Du lich trong nuoc, Du lich nuoc ngoai, Ve may bay, Thue xe du lich, Dat phong khach san">
 		<meta name="keywords" content="    du lịch giá rẻ,tour giá rẻ,tour du lịch,du lịch trong nước,du lịch nước ngoài,đặt phòng khách sạn,mua vé máy bay,tour tiết kiệm,cty du lịch uy tín">
 
-		<link type="image/x-icon" href="public/images/favicon.ico" rel="shortcut icon">
+		<link type="image/x-icon" href="/images/logo_f.ico" rel="shortcut icon">
 		<link href="<?php echo $template?>css/style.css" rel="stylesheet">
 		<link href="<?php echo $template?>css/show_albums.css" rel="stylesheet">
 		<script type="text/javascript" language="javascript" src="<?php echo $template?>js/jquery.js"></script>
@@ -26,6 +26,8 @@
 	<img id="dhtmlpointer" src="./Du lịch Hòa Bình_files/tooltiparrow.gif">
 	<script type="text/javascript" src="<?php echo $template?>js/jquery.watermarkinput.js" charset="UTF-8"></script>
 	<script type="text/javascript" src="<?php echo $template?>js/search.js" charset="UTF-8"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="<?php echo $template?>js/responsiveslides.min.js"></script>
 	<script type="text/javascript" charset="utf-8" src="<?php echo $template?>js/common.js"></script>
 	
 	<link rel="stylesheet" href="<?php echo $template?>css/slider.css" type="text/css" media="screen">

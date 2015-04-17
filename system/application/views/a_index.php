@@ -1,6 +1,21 @@
 ﻿<div id="content-wapper">
 	<div class="wrapper_slider">
-		<!--- SILIDE BAR -->
+		 <div class="callbacks_container">
+		  <ul class="rslides" id="slider4">
+			<li>
+			  <img src="http://www.peacetour.com.vn/data/ads/471/1419648781.jpg" alt="">
+			  <p class="caption">This is a caption</p>
+			</li>
+			<li>
+			  <img src="http://www.peacetour.com.vn/data/ads/471/1410946755.jpg" alt="">
+			  <p class="caption">This is another caption</p>
+			</li>
+			<li>
+			  <img src="http://www.peacetour.com.vn/data/ads/471/1419648781.jpg" alt="">
+			  <p class="caption">The third caption</p>
+			</li>
+		  </ul>
+		</div>
 	</div> 
 	<div class="clear"></div>
 	<div class="group-tour">
@@ -296,3 +311,21 @@
 	</div>
 	</div>
 	</div>
+	<script>
+	$(function() {
+		$("#slider4").responsiveSlides({
+			auto: true,
+			pager: true,
+			nav: true,
+			speed: 500,
+			namespace: "callbacks",
+			before: function () {
+			  $('.events').append("<li>before event fired.</li>");
+			},
+			after: function () {
+			  $('.events').append("<li>after event fired.</li>");
+			}
+		  });
+	  });
+	
+	</script>
