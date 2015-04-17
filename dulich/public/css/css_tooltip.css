@@ -1,0 +1,41 @@
+@CHARSET "UTF-8";
+.map-left{
+	clear: both;
+	width: 225px;
+	margin: auto;
+}
+.map-right{
+	clear: both;
+	width: 298px;
+	margin: auto;
+	border: solid 1px #ccc;
+	margin-bottom: 10px;
+}
+/* ============================ phan css tooltip ================================= */
+#dhtmltooltip
+{
+	border-right: black 1px solid;
+	padding-right: 10px;
+	border-top: black 1px solid;
+	padding-left: 10px;
+	font-size: 10pt;
+	z-index: 100;
+	filter: alpha(opacity=95);
+	left: -300px;
+	visibility: hidden;
+	padding-bottom: 10px;
+	border-left: black 1px solid;
+	padding-top: 10px;
+	border-bottom: black 1px solid;
+	font-family: Arial;
+	position: absolute;
+	background-color: #FFFFFF;
+	text-align:justify;
+}
+#dhtmlpointer
+{
+	z-index: 101;
+	left: -300px;
+	visibility: hidden;
+	position: absolute;
+}

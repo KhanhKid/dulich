@@ -1,0 +1,813 @@
+﻿<div id="content-wapper">
+<div class="brand">
+    <ul>
+        <li><a class="home" href="http://www.peacetour.com.vn/">Trang chủ</a></li>
+        <li><a href="">Tour trong nước</a></li>
+    </ul>
+</div>
+<div id="left-tour">
+	
+         	        	<div class="box-diem-den">
+            	<div class="title-left">
+                	<span>THEO tuyến du lịch </span>
+                </div>
+                <div class="sub-diem-den">
+
+                	<ul class="items">
+                		                    	<li>
+                        	<input type="checkbox" class="opttuyen" name="optTuyen" value="11"> <!-- onchange="return Common.changeLink(this,'');"-->
+                        	Tây Nguyên
+                                            	</li><li>
+                        	<input type="checkbox" class="opttuyen" name="optTuyen" value="14"> <!-- onchange="return Common.changeLink(this,'');"-->
+                        	Miền Nam
+                                            	</li><li>
+                        	<input type="checkbox" class="opttuyen" name="optTuyen" value="15"> <!-- onchange="return Common.changeLink(this,'');"-->
+                        	Miền Trung
+                                            	</li><li>
+                        	<input type="checkbox" class="opttuyen" name="optTuyen" value="16"> <!-- onchange="return Common.changeLink(this,'');"-->
+                        	Miền Bắc
+                                            	</li><li>
+                        	<input type="checkbox" class="opttuyen" name="optTuyen" value="29"> <!-- onchange="return Common.changeLink(this,'');"-->
+                        	Xuyên Việt
+                                                
+                    </li></ul>
+                </div>
+            </div>
+                        
+                        <div class="box-diem-den">
+            	<div class="title-left">
+                	<span>THEO CHỦ ĐỀ SỰ KIỆN</span>
+                </div>
+                <div class="sub-diem-den">
+                	<ul class="items">
+                    	                    	<li>
+                        	<input type="checkbox" name="optChude" class="optchude" value="17"> <!-- onchange="return Common.changeLink(this,'');"-->
+                        	Du lịch biển đảo                        </li>
+                                            	<li>
+                        	<input type="checkbox" name="optChude" class="optchude" value="16"> <!-- onchange="return Common.changeLink(this,'');"-->
+                        	Tham quan - Nghỉ dưỡng                        </li>
+                                               
+                    </ul>
+                </div>
+            </div>
+            
+                      
+             <script type="text/javascript">
+                uri_string = 'tour/44';
+                Common.changeopt();
+             </script>
+        	  <!-- Suport Online -->
+             <div class="support-onnline">
+            	<p class="title">
+                	<span>HỖ TRỢ TRỰC TUYẾN</span>
+                </p>
+                <div class="sub-supportOnline">
+                	                	<ul class="items">
+                								<li>
+							<a href="ymsgr:sendim?tournuocngoai" title=" Đặt vé máy bay, xe hợp đồng, khách sạn, tour..."><img border="0" align="absmiddle" src="http://opi.yahoo.com/online?u=tournuocngoai&amp;m=g&amp;t=1&amp;3=us"></a>
+							<span>Thủ tục Visa</span>
+						</li>
+												<li>
+							<a href="ymsgr:sendim?hb.tourtrongnuoc" title=" Đặt vé máy bay, xe hợp đồng, khách sạn, tour..."><img border="0" align="absmiddle" src="http://opi.yahoo.com/online?u=hb.tourtrongnuoc&amp;m=g&amp;t=1&amp;3=us"></a>
+							<span>Tour Trong Nước </span>
+						</li>
+												<li>
+							<a href="ymsgr:sendim?hb.dichvuthuexe" title=" Đặt vé máy bay, xe hợp đồng, khách sạn, tour..."><img border="0" align="absmiddle" src="http://opi.yahoo.com/online?u=hb.dichvuthuexe&amp;m=g&amp;t=1&amp;3=us"></a>
+							<span>Dịch vụ thuê xe</span>
+						</li>
+												<li>
+							<a href="ymsgr:sendim?airpeacetour" title=" Đặt vé máy bay, xe hợp đồng, khách sạn, tour..."><img border="0" align="absmiddle" src="http://opi.yahoo.com/online?u=airpeacetour&amp;m=g&amp;t=1&amp;3=us"></a>
+							<span>Vé Máy Bay </span>
+						</li>
+												<li>
+							<a href="ymsgr:sendim?hotel.peacetour" title=" Đặt vé máy bay, xe hợp đồng, khách sạn, tour..."><img border="0" align="absmiddle" src="http://opi.yahoo.com/online?u=hotel.peacetour&amp;m=g&amp;t=1&amp;3=us"></a>
+							<span>Khách sạn-Nhà hàng</span>
+						</li>
+												<li>
+							<a href="ymsgr:sendim?peacetour_outbound" title=" Đặt vé máy bay, xe hợp đồng, khách sạn, tour..."><img border="0" align="absmiddle" src="http://opi.yahoo.com/online?u=peacetour_outbound&amp;m=g&amp;t=1&amp;3=us"></a>
+							<span>Tour nước ngoài</span>
+						</li>
+									
+                    <li class="hotline">&nbsp;Hotline: 0913.172741 / 0912.024.347</li>
+                    </ul>
+                                        
+                	
+                </div>
+            </div>         	         	<div class="map-left">
+               <script type="text/javascript">
+       $(document).ready(function() {
+            $(".mapvn").hover(function(){
+                $(".map_static").hide();
+                $(".map_dynamic").show();
+                $(".map_dynamic").css({
+                    'top':0,
+                    'right':0,
+                    'position':'absolute',
+                    'z-index':90
+                })
+            },function(){
+                $(".map_static").show();
+                $(".map_dynamic").hide();
+            })
+        })
+       </script>
+          <div class="mapvn" style="position: relative;width: 223px; height: 356px;">
+         <img class="map_static" src="http://peacetour.com.vn/site/templates/clients/images/mapvn.png" width="223" border="0">
+         <img class="map_dynamic" style="display: none;border: 1px solid #d1d1d1;box-shadow:0px 0px 3px #d1d1d1" src="http://peacetour.com.vn/site/templates/clients/images/mapvn.png" width="412" border="0" usemap="#Map">
+            <map name="Map" id="Map">
+            <area shape="rect" coords="122,537,143,557" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/dong-thap-1965.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1396411753.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="147,144,178,168">
+            <area shape="rect" coords="95,14,142,41">
+            <area shape="rect" coords="151,23,194,52" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-cao-bang-451.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1372154024.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="164,59,198,82" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-lang-son-448.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1372154046.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="58,92,96,110" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-53/son-la-522.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1373096102.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="82,57,120,88" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-53/yen-bai-524.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1372154514.jpg width=100 />',100);" onmouseout="hidetip();">
+            
+            <area shape="rect" coords="138,88,175,110" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/ha-noi-444.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1371709274.jpg width=100 />',100);" onmouseout="hidetip();">
+      
+            <area shape="rect" coords="212,82,269,98" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-53/van-don-538.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1372154370.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="189,103,208,119" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-hai-phong-445.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1371709229.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="118,123,149,141" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-ninh-binh-441.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1373097533.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="157,87,223,103">
+            <area shape="rect" coords="220,294,242,308" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-thua-thien-hue-436.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1371709431.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="52,27,86,53" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-lao-cai-sapa-450.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1372150993.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="19,54,58,82" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-53/lai-chau-523.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1373096172.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="235,314,257,327" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-da-nang-435.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1372153612.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="248,331,266,339" href="http://www.peacetour.com.vn/xem-tin/-84/nhip-song-hoi-an-399.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1372153635.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="102,457,156,478" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-thanh-pho-ho-chi-minh-417.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1372153776.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="277,500,307,522" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-binh-thuan-419.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1372154556.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="234,497,265,520">
+            <area shape="rect" coords="232,449,260,477" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-daklak-423.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1372153681.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="281,470,312,494" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-khanh-hoa-nha-trang-428.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1372153716.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="108,517,180,530" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-can-tho-415.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1372320951.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="74,586,96,601" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/kien-giang-phu-quoc-1989.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1371709194.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="183,537,200,553" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/thanh-pho-ho-chi-minh-1990.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1372151624.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="208,552,225,569" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-ba-ria-vung-tau-418.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1372151709.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="75,26,126,43" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-53/bac-ha-525.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1372154264.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="162,244,192,266" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-quang-binh-439.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1372153545.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="84,88,140,104" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-hoa-binh-442.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1372154001.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="247,338,265,351" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-quang-nam-434.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1372153658.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="127,39,152,58">
+
+            <area shape="rect" coords="102,111,131,122" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-ninh-binh-441.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1373097603.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="109,624,128,646">
+            <area shape="rect" coords="176,571,195,590">
+            <area shape="rect" coords="94,534,149,551" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/ca-mau-540.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1373533218.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="165,552,190,573" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-tien-giang-416.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1373535744.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="103,597,128,612">
+            <area shape="rect" coords="131,573,154,594">
+            <area shape="rect" coords="148,600,168,615">
+            <area shape="rect" coords="236,405,267,428" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-gia-lai-427.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1373094845.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="226,374,255,394" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-kontum-425.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1373094708.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="121,174,153,201" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-nghe-an-440.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1373095326.jpg width=100 />',100);" onmouseout="hidetip();">
+
+            <area shape="rect" coords="176,517,194,533" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/binh-duong-539.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1373532599.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="285,430,311,451">
+            <area shape="rect" coords="272,388,305,413" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-binh-dinh-430.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1372323853.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="264,358,290,373" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/quang-ngai-548.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1373865052.jpg width=100 />',100);" onmouseout="hidetip();">
+            <area shape="rect" coords="116,554,137,572">
+            <area shape="rect" coords="188,276,221,295" href="http://www.peacetour.com.vn/xem-tin/danh-lam-thang-canh-viet-nam-84/gioi-thieu-quang-tri-437.html" onmouseover="showtip('<img src=http://www.peacetour.com.vn/data/map_news/thumb/1372154873.jpg width=100 />',100);" onmouseout="hidetip();">
+         </map>
+          </div>
+           <script type="text/javascript">
+           jQuery(document).ready(function() {
+                jQuery(".mapvn").hover(function(){
+                    jQuery(".map_static").hide();
+                    jQuery(".map_dynamic").show();
+                    jQuery(".map_dynamic").css({
+                        'top':0,
+                        'left':0,
+                        'position':'absolute',
+                        'z-index':90
+                    })
+                },function(){
+                    jQuery(".map_static").show();
+                    jQuery(".map_dynamic").hide();
+                })
+            })
+           </script>
+            	
+			</div>
+			
+			<div class="ads-left">
+         		<ul class="item-ads">
+         			<li><a href="http://www.peacetour.com.vn/xem-tour/62/phu-quoc-390.html" target="_blank"><img src="http://www.peacetour.com.vn/data/ads_tours/full_images/1424831237.jpg" width="235" alt="Phu Quoc"></a></li>         			
+         		</ul>
+         	</div>
+         	
+</div>
+<div id="right-detail-tour">
+	<div class="title">
+            	&nbsp; thông tin chi tiết
+   </div>
+	
+	<div class="content-de-tour">
+				<div class="photo">
+            <img src="http://peacetour.com.vn/data/tours/300/14248377795.jpg" width="340" alt="HÀ NỘI - MAI CHÂU - MỘC CHÂU - HÀ NỘI">
+        </div>
+                
+                <div class="info-tour-de">
+                
+                	<p class="name"><span class="tour">HÀ NỘI - MAI CHÂU - MỘC CHÂU - HÀ NỘI</span> - <span>Mã tour</span>: HBD.TB4N</p>
+                	<p class="price"><strong>Giá</strong>: 4.326.000 VNĐ </p>
+                	
+					<p class="line"><strong>Thời gian: </strong> 04 ngày 03 đêm</p>
+					<p class="line"><strong>Phương tiện</strong>: Đi và về bằng máy bay</p>
+					<p class="line"><strong>Khởi hành</strong>: 26/03/2015</p>
+					
+					
+					
+                    <p class="line"><a href="http://peacetour.com.vn/booking/ha-noi-mai-chau-moc-chau-ha-noi-445.html"><img src="http://peacetour.com.vn/site/templates/clients/images/dattour.png" alt=""></a></p>
+                </div>
+                
+		<div class="box-tab-detail">
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("ul.tab-detail li").click(function(){
+					$("ul.tab-detail li").removeClass("select");
+					$(this).addClass("select");
+
+					var prop  = $(this).attr('title');
+					$(".content-tab").hide();
+					$("#"+prop).show();
+				});
+			})
+		
+		</script>
+		<ul class="tab-detail">
+            <li title="tab1"><a href="javascript:;">Tổng quan</a></li>
+            <li class="select" title="tab2"><a href="javascript:;">Hành trình</a></li>
+			
+			
+			<li title="tab3"><a href="javascript:;">Bảng giá</a></li>
+			<!-- 
+			<li title="tab4"><a href="javascript:;">Chú ý</a></li>
+			 -->
+			<li title="tab5"><a href="javascript:;">Điều kiện</a></li>
+		</ul>
+
+		
+		 <div class="content-tab hidden" id="tab1" style="display:none;">
+			<div class="sub-tab">
+				
+				<div class="group-item-de">	
+					
+					<div class="summary" style="margin-bottom: 15px;">
+						
+					</div>		
+					<div class="clear">
+											</div>
+				</div>
+				
+			</div>
+		</div>
+		<div class="content-tab" id="tab2" style="display: block;">
+			<div class="sub-tab">
+				<div class="slider-photo">
+					<script type="text/javascript" src="http://peacetour.com.vn/site/templates/clients/js/easySlider1.7.js"></script>
+					<script type="text/javascript">
+						$(document).ready(function(){	
+							$("#slider2").easySlider({
+								auto: true, 
+								continuous: true,
+								numeric: true
+							});
+						});	
+					</script>
+					
+					<link href="http://peacetour.com.vn/site/templates/clients/css/screen-tour.css" rel="stylesheet" type="text/css" media="screen">
+					
+					<div id="slider2" style="width: 500px; height: 401px; overflow: hidden;">
+						<ul style="width: 7000px; margin-left: 0px;"><li style="margin-left: -500px; float: left;">
+								<a rel="example_group" href="javascript:;"><img src="http://peacetour.com.vn/data/tours/full_images/1411371548-copy.jpg" width="500" height="401" alt="chùa Một Cột, Hà Nội"></a>
+								<p class="name"><a href="">chùa Một Cột, Hà Nội</a></p>	
+							</li>
+											
+							<li style="float: left;">
+								<a rel="example_group" href="javascript:;"><img src="http://peacetour.com.vn/data/tours/full_images/14248380485.jpg" width="500" height="401" alt="đền Ngọc Sơn, Hà Nội"></a>
+								<p class="name"><a href="">đền Ngọc Sơn, Hà Nội</a></p>	
+							</li>
+											
+							<li style="float: left;">
+								<a rel="example_group" href="javascript:;"><img src="http://peacetour.com.vn/data/tours/full_images/14248380453.jpg" width="500" height="401" alt="chùa Trấn Quốc, Hà Nội"></a>
+								<p class="name"><a href="">chùa Trấn Quốc, Hà Nội</a></p>	
+							</li>
+											
+							<li style="float: left;">
+								<a rel="example_group" href="javascript:;"><img src="http://peacetour.com.vn/data/tours/full_images/14248380404.jpg" width="500" height="401" alt="hồ Gươm, Hà Nội"></a>
+								<p class="name"><a href="">hồ Gươm, Hà Nội</a></p>	
+							</li>
+											
+							<li style="float: left;">
+								<a rel="example_group" href="javascript:;"><img src="http://peacetour.com.vn/data/tours/full_images/14248380383.jpg" width="500" height="401" alt="đền Quán Thánh, Hà Nội"></a>
+								<p class="name"><a href="">đền Quán Thánh, Hà Nội</a></p>	
+							</li>
+											
+							<li style="float: left;">
+								<a rel="example_group" href="javascript:;"><img src="http://peacetour.com.vn/data/tours/full_images/14248379303.jpg" width="500" height="401" alt="nhà máy thủy điện Hòa Bình"></a>
+								<p class="name"><a href="">nhà máy thủy điện Hòa Bình</a></p>	
+							</li>
+											
+							<li style="float: left;">
+								<a rel="example_group" href="javascript:;"><img src="http://peacetour.com.vn/data/tours/full_images/14248379275.jpg" width="500" height="401" alt="nhà máy thủy điện Hòa Bình"></a>
+								<p class="name"><a href="">nhà máy thủy điện Hòa Bình</a></p>	
+							</li>
+											
+							<li style="float: left;">
+								<a rel="example_group" href="javascript:;"><img src="http://peacetour.com.vn/data/tours/full_images/14248378735.jpg" width="500" height="401" alt="thung lũng Mai Châu"></a>
+								<p class="name"><a href="">thung lũng Mai Châu</a></p>	
+							</li>
+											
+							<li style="float: left;">
+								<a rel="example_group" href="javascript:;"><img src="http://peacetour.com.vn/data/tours/full_images/14248377795.jpg" width="500" height="401" alt="cao nguyên Mộc Châu"></a>
+								<p class="name"><a href="">cao nguyên Mộc Châu</a></p>	
+							</li>
+											
+							<li style="float: left;">
+								<a rel="example_group" href="javascript:;"><img src="http://peacetour.com.vn/data/tours/full_images/14248376833.jpg" width="500" height="401" alt="thác Dải Yếm, Mộc Châu"></a>
+								<p class="name"><a href="">thác Dải Yếm, Mộc Châu</a></p>	
+							</li>
+											
+							<li style="float: left;">
+								<a rel="example_group" href="javascript:;"><img src="http://peacetour.com.vn/data/tours/full_images/14248363274.jpg" width="500" height="401" alt="Văn Miếu - Quốc Tử Giám, Hà Nội"></a>
+								<p class="name"><a href="">Văn Miếu - Quốc Tử Giám, Hà Nội</a></p>	
+							</li>
+											
+							<li style="float: left;">
+								<a rel="example_group" href="javascript:;"><img src="http://peacetour.com.vn/data/tours/full_images/14248362873.jpg" width="500" height="401" alt="Lăng Bác, Hà Nội"></a>
+								<p class="name"><a href="">Lăng Bác, Hà Nội</a></p>	
+							</li>
+											
+							<li style="float: left;">
+								<a rel="example_group" href="javascript:;"><img src="http://peacetour.com.vn/data/tours/full_images/1411371565-copy.jpg" width="500" height="401" alt="cầu Thê Húc, Hà Nội "></a>
+								<p class="name"><a href="">cầu Thê Húc, Hà Nội </a></p>	
+							</li>
+											
+							<li style="float: left;">
+								<a rel="example_group" href="javascript:;"><img src="http://peacetour.com.vn/data/tours/full_images/1411371548-copy.jpg" width="500" height="401" alt="chùa Một Cột, Hà Nội"></a>
+								<p class="name"><a href="">chùa Một Cột, Hà Nội</a></p>	
+							</li>
+										
+						<li style="float: left;">
+								<a rel="example_group" href="javascript:;"><img src="http://peacetour.com.vn/data/tours/full_images/14248380485.jpg" width="500" height="401" alt="đền Ngọc Sơn, Hà Nội"></a>
+								<p class="name"><a href="">đền Ngọc Sơn, Hà Nội</a></p>	
+							</li></ul>
+				   </div><ol id="controls"><li id="controls1" class="current"><a rel="0" href="javascript:void(0);">1</a></li><li id="controls2" class=""><a rel="1" href="javascript:void(0);">2</a></li><li id="controls3" class=""><a rel="2" href="javascript:void(0);">3</a></li><li id="controls4" class=""><a rel="3" href="javascript:void(0);">4</a></li><li id="controls5" class=""><a rel="4" href="javascript:void(0);">5</a></li><li id="controls6" class=""><a rel="5" href="javascript:void(0);">6</a></li><li id="controls7" class=""><a rel="6" href="javascript:void(0);">7</a></li><li id="controls8" class=""><a rel="7" href="javascript:void(0);">8</a></li><li id="controls9" class=""><a rel="8" href="javascript:void(0);">9</a></li><li id="controls10" class=""><a rel="9" href="javascript:void(0);">10</a></li><li id="controls11" class=""><a rel="10" href="javascript:void(0);">11</a></li><li id="controls12" class=""><a rel="11" href="javascript:void(0);">12</a></li><li id="controls13" class=""><a rel="12" href="javascript:void(0);">13</a></li></ol>
+						
+				</div>
+				<div style="text-align: center;">
+	<strong>CHƯƠNG TRÌNH THAM QUAN</strong></div>
+<div style="text-align: center;">
+	<strong>***</strong></div>
+<h3 style="color:red;">
+	<span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">Ngày 1: TP.HCM - HÀ NỘI (Ăn trưa, chiều)</span></span></h3>
+<p>
+	<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;"><strong>Bu</strong><strong>ổi sáng:</strong> Quý khách tự túc làm thủ tục tại <strong>sân bay Tân S</strong><strong>ơn Nh</strong><strong>ất</strong> đón chuyến bay đi Hà Nội. Xe và HDV đón quý khách tại <strong>sân bay N</strong><strong>ội Bài</strong>, về Hà Nội nhận phòng, ăn trưa.</span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;"><strong>Bu</strong><strong>ổi chi</strong><strong>ều:</strong> Đoàn đến hồ Tây, thăm <strong>đ</strong><strong>ền Quán Thánh, chùa Tr</strong><strong>ấn Qu</strong><strong>ốc</strong>. Quý khách ngồi xe điện tham quan không gian Hà thành đặc trưng tại phố cổ với <strong>hàng Ngang, hàng Đào, hàng Bông</strong>... ngắm <strong>h</strong><strong>ồ G</strong><strong>ươm, thăm đ</strong><strong>ền Ng</strong><strong>ọc S</strong><strong>ơn, c</strong><strong>ầu Thê Húc</strong>. Ăn tối.</span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">Quý khách tự do dạo chơi, ngắm cảnh Hà Thành trong đêm. Nghỉ đêm tại <strong>Hà N</strong><strong>ội</strong>.</span></span></p>
+<p>
+	&nbsp;</p>
+<h3 style="color:red;">
+	<span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">Ngày 2: HÀ NỘI - MAI CHÂU - MỘC CHÂU (Ăn ba bữa)</span></span></h3>
+<p>
+	<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;"><strong>Bu</strong><strong>ổi sáng:</strong> Ăn sáng, trả phòng khách sạn. Đoàn khởi hành đi tham quan <strong>nhà máy th</strong><strong>ủy đi</strong><strong>ện Hòa Bình</strong>. Ăn trưa tại Hòa Bình.</span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;"><strong>Bu</strong><strong>ổi chi</strong><strong>ều:</strong> Tiếp tục hành trình đến với <strong>thung lũng Mai Châu</strong>, quý khách tham quan <strong>b</strong><strong>ản Lác</strong> tìm hiểu nét đẹp của đồng bào dân tộc Thái và dân tộc Mường. Đoàn tiếp tục đi <strong>cao nguyên M</strong><strong>ộc Châu</strong> – nổi tiếng với những cánh đồng hoa cải, những thung lũng trắng màu hoa mận, những đồi chè bạt ngàn tầm mắt. Đến Mộc Châu, quý khách nhận phòng khách sạn, ăn tối.</span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">Quý khách tự do dạo chơi Mộc Châu về đêm… Nghỉ đêm tại <strong>M</strong><strong>ộc Châu</strong>.</span></span></p>
+<p>
+	&nbsp;</p>
+<h3 style="color:red;">
+	<span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">Ngày 3: MỘC CHÂU - HÀ NỘI (Ăn ba bữa)</span></span></h3>
+<p>
+	<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;"><strong>Bu</strong><strong>ổi sáng:</strong> Đoàn tham quan <strong>thác D</strong><strong>ải Y</strong><strong>ếm</strong>, đồi chè bạt ngàn tầm mắt, thung lũng hoa cải đẹp mê người, cùng với nếp nhà sàn ẩn hiện. Quý khách lưu lại những bức ảnh đọng lại đầy cảm xúc, Ăn trưa.</span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;"><strong>Bu</strong><strong>ổi chi</strong><strong>ều:</strong> Đoàn khởi hành Về Hà Nội, nhận phòng, nghỉ ngơi, dùng cơm tối.</span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">Quý khách tự do dạo chơi, ngắm cảnh Hà Thành trong đêm. Nghỉ đêm tại <strong>Hà N</strong><strong>ội</strong>.</span></span></p>
+<p>
+	&nbsp;</p>
+<h3 style="color:red;">
+	<span style="font-size:14px;"><span style="font-family:arial,helvetica,sans-serif;">Ngày 4: HÀ NỘI - TP.HCM (Ăn trưa, chiều)</span></span></h3>
+<p>
+	<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;"><strong>Bu</strong><strong>ổi sáng:</strong> Quý khách vào viếng <strong>lăng Bác</strong>, thăm <strong>ph</strong><strong>ủ Ch</strong><strong>ủ T</strong><strong>ịch</strong>, <strong>nhà sàn, ao cá Bác H</strong><strong>ồ, chùa M</strong><strong>ột C</strong><strong>ột, Văn mi</strong><strong>ếu - Qu</strong><strong>ốc T</strong><strong>ử Giám, ch</strong><strong>ợ Đ</strong><strong>ồng Xuân</strong>. Ăn trưa</span></span></p>
+<p>
+	<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;"><strong>Buổi chiều:</strong> Xe đưa quý khách đi <strong>sân bay Nội Bài</strong>. Quý khách tự túc làm thủ tục đón chuyến bay về lại <strong>TP.HCM</strong>. Kết thúc chuyến đi, chào tạm biệt và hẹn gặp lại.</span></span></p>
+<div style="text-align: justify;">
+	&nbsp;</div>
+<div style="text-align: right;">
+	<a href="/data/files/HB%20TB%2002.pdf"><span style="color:#0000cd;"><strong>DOWNLOAD CHƯƠNG TRÌNH</strong></span></a></div>
+			</div>
+		</div>
+		<div class="content-tab hidden" id="tab3">
+			
+			<div class="sub-tab">
+				<div style="text-align: center;">
+	<p align="center" style="margin-bottom: 0.0001pt;">
+		<strong><u><span style="text-transform:uppercase;"><span style="color:red;"><span style="font-family:palatino linotype,serif;"><span style="font-size:15.0pt;">GIÁ TOUR TRỌN GÓI</span></span></span></span></u></strong><span style="color:red;"><span style="font-family:palatino linotype,serif;"><span style="font-size:15.0pt;">:</span></span></span><span style="color:red;"><span style="font-family:palatino linotype,serif;"><span style="font-size:13.0pt;"> <em>(Khách Việt Nam)</em></span></span></span></p>
+	<p align="right" style="text-align:right;">
+		<strong><em><span style="color:red;"><span style="font-family:palatino linotype,serif;"><span style="font-size:13.0pt;">Đơn vị tính: VNĐ/khách</span></span></span></em></strong></p>
+	<table align="center" border="1" cellpadding="0" cellspacing="0" style="margin-left:27.9pt;border-collapse:collapse;border:none;">
+		<tbody>
+			<tr>
+				<td style="width:228px;border:solid black 1.0pt;background:#005DA4;padding:0cm 5.4pt 0cm 5.4pt;">
+					<p align="center" style="margin-top: 12pt;">
+						<strong><span style="color:white;"><span style="font-family:arial,sans-serif;">GIÁ TOUR</span></span></strong></p>
+				</td>
+				<td style="width:240px;border:solid black 1.0pt;border-left:none;background:#005DA4;padding:0cm 5.4pt 0cm 5.4pt;">
+					<p align="center" style="margin-top: 12pt;">
+						<strong><span style="color:white;"><span style="font-family:arial,sans-serif;">PHỤ THU KHÁCH NƯỚC NGOÀI</span></span></strong></p>
+				</td>
+				<td style="width:216px;border:solid black 1.0pt;border-left:none;background:#005DA4;padding:0cm 5.4pt 0cm 5.4pt;">
+					<p align="center" style="margin-top: 12pt;">
+						<strong><span style="color:white;"><span style="font-family:arial,sans-serif;">PHỤ THU PHÒNG ĐƠN</span></span></strong></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="width:228px;border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;">
+					<p align="center" style="margin-top: 12pt;">
+						<strong><span style="font-family:arial,sans-serif;"><span style="font-size:13.0pt;">4.326.000</span></span></strong></p>
+				</td>
+				<td style="width:240px;border-top:none;border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;">
+					<p align="center" style="margin-top: 12pt;">
+						<strong><span style="font-family:arial,sans-serif;"><span style="font-size:13.0pt;">500.000</span></span></strong></p>
+				</td>
+				<td style="width:216px;border-top:none;border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;">
+					<p align="center" style="margin-top: 12pt;">
+						<strong><span style="font-family:arial,sans-serif;"><span style="font-size:13.0pt;">960.000</span></span></strong></p>
+				</td>
+			</tr>
+			<tr>
+				<td style="width:228px;border:solid black 1.0pt;border-top:none;background:#005DA4;padding:0cm 5.4pt 0cm 5.4pt;">
+					<p align="center" style="margin-top: 12pt;">
+						<strong><span style="color:white;"><span style="font-family:arial,sans-serif;">GIÁ VÉ MÁY BAY</span></span></strong></p>
+				</td>
+				<td colspan="2" style="width:456px;border-top:none;border-left:none;border-bottom:solid black 1.0pt;border-right:solid black 1.0pt;padding:0cm 5.4pt 0cm 5.4pt;">
+					<p align="center" style="margin-top: 12pt;">
+						<strong><span style="font-family:arial,sans-serif;"><span style="font-size:13.0pt;">Từ 3.630.000 đến 6.094.000</span></span></strong></p>
+				</td>
+			</tr>
+			<tr>
+				<td colspan="3" style="width:684px;border:solid black 1.0pt;border-top:none;padding:0cm 5.4pt 0cm 5.4pt;">
+					<p align="center" style="margin-bottom: 0.0001pt;">
+						<em><span style="font-family:arial,sans-serif;">(*) Giá vé máy bay có thể thay đổi vào thời điểm xuất vé.</span></em></p>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+	<div style="clear: both; text-align: left;">
+		&nbsp;</div>
+	<div style="clear: both; text-align: left;">
+		&nbsp;</div>
+	<div style="clear: both; text-align: left;">
+		<h3 style="margin: 0px 0px 0.5em; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: red;">
+			<span style="margin: 0px; padding: 0px; font-size: 14px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;"><span style="margin: 0px; padding: 0px; color: blue;">BAO GỒM:</span></span></span></h3>
+		<p>
+			<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">- Vận chuyển: Xe máy lạnh phục vụ theo chương trình.</span></span></p>
+		<p>
+			<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">- Nghỉ đêm: Tiêu chuẩn: 2 - 3 người/phòng.</span></span></p>
+		<p>
+			<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">+ Mộc Châu: Khách sạn 3sao Sao Xanh, Thảo Nguyên.</span></span></p>
+		<p>
+			<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">+ Tại Hà Nội: Khách sạn 3sao Santa Barbara, First Eden , Le Carnot, Galaxy.</span></span></p>
+		<p>
+			<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">&nbsp;(hoặc các khách sạn tương đương).</span></span></p>
+		<p>
+			<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">- Các bữa ăn theo chương trình.</span></span></p>
+		<p>
+			<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">- Hướng dẫn viên: thuyết minh và phục vụ theo chương trình tham quan.</span></span></p>
+		<p>
+			<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">- Phí tham quan các nơi theo chương trình.</span></span></p>
+		<p>
+			<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">- Phí giao lưu văn nghệ tại Điện Biên (áp dụng khi đoàn trên 10 khách).</span></span></p>
+		<p>
+			<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">- Bảo hiểm du lịch: du khách được đăng ký bảo hiểm du lịch trong suốt chuyến đi với mức tối đa 50.000.000đ / trường hợp.</span></span></p>
+		<p>
+			<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">- Quà tặng du lịch: nón du lịch, khăn lạnh, nước uống trên đường đi.</span></span></p>
+		<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+			<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">- Thuế V.A.T.</span></span></p>
+		<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+			&nbsp;</p>
+		<h3 style="margin: 0px 0px 0.5em; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: blue;">
+			<span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif; font-size: 14px;">KHÔNG BAO GỒM:</span></h3>
+		<p>
+			- Th<span style="font-family:arial,sans-serif;">ứ</span>c u<span style="font-family:arial,sans-serif;">ố</span>ng gi<span style="font-family:arial,sans-serif;">ả</span>i khát trong b<span style="font-family:arial,sans-serif;">ữ</span>a ăn.</p>
+		<p>
+			- Chi phí nh<span style="font-family:arial,sans-serif;">ậ</span>n phòng s<span style="font-family:arial,sans-serif;">ớ</span>m và tr<span style="font-family:arial,sans-serif;">ả</span> phòng tr<span style="font-family:arial,sans-serif;">ễ</span>.</p>
+		<p>
+			- Các chi phí cá nhân: ch<span style="font-family:arial,sans-serif;">ụ</span>p hình, đi<span style="font-family:arial,sans-serif;">ệ</span>n tho<span style="font-family:arial,sans-serif;">ạ</span>i, n<span style="font-family:arial,sans-serif;">ướ</span>c u<span style="font-family:arial,sans-serif;">ố</span>ng trong phòng…</p>
+		<h3 style="margin: 0px 0px 0.5em; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: blue;">
+			<span style="margin: 0px; padding: 0px; font-size: 14px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">GHI CHÚ:</span></span></h3>
+		<p>
+			- Đ<span style="font-family: arial, sans-serif;">ể</span> vi<span style="font-family: arial, sans-serif;">ệ</span>c chu<span style="font-family: arial, sans-serif;">ẩ</span>n b<span style="font-family: arial, sans-serif;">ị</span> th<span style="font-family: arial, sans-serif;">ự</span>c hi<span style="font-family: arial, sans-serif;">ệ</span>n tour đ<span style="font-family: arial, sans-serif;">ượ</span>c chu đáo, quý khách vui lòng đăng ký s<span style="font-family: arial, sans-serif;">ớ</span>m ngay khi có ý đ<span style="font-family: arial, sans-serif;">ị</span>nh đi du l<span style="font-family: arial, sans-serif;">ị</span>ch.&nbsp;</p>
+		<p>
+			<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">- Quý khách vui lòng mang theo hành lý gọn nhẹ và giấy CMND hoặc hộ chiếu (bản chính).</span></span></p>
+		<p>
+			<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">- Quý khách vui lòng có mặt đúng giờ hẹn tại nơi tập trung.</span></span></p>
+		<p>
+			<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">- Thời gian nhận phòng là sau 14h00 và trả phòng trước 12h00.</span></span></p>
+		<p>
+			<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">- Thứ tự các điểm tham quan có thể thay đổi nhưng vẫn đảm bảo đủ các điểm theo chương trình.</span></span></p>
+		<p>
+			<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">- Tại Nội Bài: đón các chuyến bay hạ cánh từ 09h30 – 11h30 và tiễn các chuyến bay cất cánh từ 14h00 - 16h00 (các chuyến bay khác giờ vui lòng tự túc phương tiện ra về sân bay hoặc đợi ghép cùng đoàn).</span></span></p>
+		<p>
+			<span style="font-size:12px;"><span style="font-family:arial,helvetica,sans-serif;">- Nếu yêu cầu thêm HDV tiếng Anh hoặc Hoa phổ thông phụ thu thêm 300.000VND/ngày/1 nhóm.</span></span></p>
+		<p>
+			&nbsp;</p>
+	</div>
+</div>
+<p>
+	&nbsp;</p>
+				
+			</div>
+		</div>
+		<!-- bo chu y 
+		<div class="content-tab hidden" id="tab4">
+			
+			<div class="sub-tab">
+								
+			</div>
+		</div>
+		-->
+		
+		<div class="content-tab hidden" id="tab5">
+			
+			<div class="sub-tab">
+				<div style="text-align: justify;">
+	<h3 style="margin: 0px 0px 0.5em; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: blue;">
+		<span style="margin: 0px; padding: 0px; font-size: 14px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">TIÊU CHUẨN DÀNH CHO TRẺ EM:</span></span></h3>
+	<p>
+		<strong>+ Quy đ<span style="font-family:arial,sans-serif;">ị</span>nh v<span style="font-family:arial,sans-serif;">ề</span> tour:</strong></p>
+	<p>
+		- T<span style="font-family:arial,sans-serif;">ừ</span> 12 tu<span style="font-family:arial,sans-serif;">ổ</span>i tr<span style="font-family:arial,sans-serif;">ở</span> lên: b<span style="font-family:arial,sans-serif;">ằ</span>ng vé ng<span style="font-family:arial,sans-serif;">ườ</span>i l<span style="font-family:arial,sans-serif;">ớ</span>n.</p>
+	<p>
+		- T<span style="font-family:arial,sans-serif;">ừ</span> 6 đ<span style="font-family:arial,sans-serif;">ế</span>n 11 tu<span style="font-family:arial,sans-serif;">ổ</span>i: b<span style="font-family:arial,sans-serif;">ằ</span>ng 50% giá tour: đ<span style="font-family:arial,sans-serif;">ượ</span>c 1 su<span style="font-family:arial,sans-serif;">ấ</span>t ăn + 1 gh<span style="font-family:arial,sans-serif;">ế</span> ng<span style="font-family:arial,sans-serif;">ồ</span>i trên xe, thuy<span style="font-family:arial,sans-serif;">ề</span>n, vé tham quan và ng<span style="font-family:arial,sans-serif;">ủ</span> chung gi<span style="font-family:arial,sans-serif;">ườ</span>ng v<span style="font-family:arial,sans-serif;">ớ</span>i b<span style="font-family:arial,sans-serif;">ố</span> m<span style="font-family:arial,sans-serif;">ẹ</span>.</p>
+	<p>
+		- D<span style="font-family:arial,sans-serif;">ướ</span>i 5 tu<span style="font-family:arial,sans-serif;">ổ</span>i: mi<span style="font-family:arial,sans-serif;">ễ</span>n phí giá tour, gia đình t<span style="font-family:arial,sans-serif;">ự</span> túc các chi phí phát sinh cho bé.</p>
+	<p>
+		- 02 ng<span style="font-family:arial,sans-serif;">ườ</span>i l<span style="font-family:arial,sans-serif;">ớ</span>n đ<span style="font-family:arial,sans-serif;">ượ</span>c kèm 01 tr<span style="font-family:arial,sans-serif;">ẻ</span> em d<span style="font-family:arial,sans-serif;">ướ</span>i 06 tu<span style="font-family:arial,sans-serif;">ổ</span>i. T<span style="font-family:arial,sans-serif;">ừ</span> tr<span style="font-family:arial,sans-serif;">ẻ</span> th<span style="font-family:arial,sans-serif;">ứ</span> 02 tr<span style="font-family:arial,sans-serif;">ở</span> lên, quý khách vui lòng tr<span style="font-family:arial,sans-serif;">ả</span> 50% giá vé ng<span style="font-family:arial,sans-serif;">ườ</span>i l<span style="font-family:arial,sans-serif;">ớ</span>n.</p>
+	<p>
+		<strong>+ Quy đ<span style="font-family: arial, sans-serif;">ị</span>nh hàng không Vietnam Airlines</strong></p>
+	<p>
+		- T<span style="font-family:arial,sans-serif;">ừ</span> 12 tu<span style="font-family:arial,sans-serif;">ổ</span>i tr<span style="font-family:arial,sans-serif;">ở</span> lên: b<span style="font-family:arial,sans-serif;">ằ</span>ng vé ng<span style="font-family:arial,sans-serif;">ườ</span>i l<span style="font-family:arial,sans-serif;">ớ</span>n.</p>
+	<p>
+		- T<span style="font-family:arial,sans-serif;">ừ</span> 2 đ<span style="font-family:arial,sans-serif;">ế</span>n 11 tu<span style="font-family:arial,sans-serif;">ổ</span>i: 75% vé máy bay.</p>
+	<p>
+		- D<span style="font-family:arial,sans-serif;">ướ</span>i 2 tu<span style="font-family:arial,sans-serif;">ổ</span>i: 10% vé máy bay.</p>
+	<p>
+		<strong>+ Quy đ<span style="font-family:arial,sans-serif;">ị</span>nh hàng không VietJet Air/ JetStar Pacific:</strong></p>
+	<p>
+		- T<span style="font-family:arial,sans-serif;">ừ</span> 2 tu<span style="font-family:arial,sans-serif;">ổ</span>i tr<span style="font-family:arial,sans-serif;">ở</span> lên: b<span style="font-family:arial,sans-serif;">ằ</span>ng vé ng<span style="font-family:arial,sans-serif;">ườ</span>i l<span style="font-family:arial,sans-serif;">ớ</span>n.</p>
+	<p>
+		- D<span style="font-family:arial,sans-serif;">ướ</span>i 2 tu<span style="font-family:arial,sans-serif;">ổ</span>i: mi<span style="font-family:arial,sans-serif;">ễ</span>n phí vé máy bay.</p>
+	<h3 style="margin: 0px 0px 0.5em; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: blue;">
+		<span style="margin: 0px; padding: 0px; font-size: 14px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">LƯU Ý:</span></span></h3>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">-&nbsp; Quý khách từ 14 tuổi trở lên phải sử dụng CMND hoặc hộ chiếu (bản chính)</span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">-&nbsp; Đối với trẻ em dưới 14 tuổi phải có giấy khai sinh (bản chính hoặc bản sao)</span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">-&nbsp; Trường hợp trẻ em dưới một tháng tuổi chưa có giấy khai sinh thì phải có giấy chứng sinh.</span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">-&nbsp; Trẻ em phải có giấy ủy quyền có công chứng nếu không có ba, mẹ đi cùng.</span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		&nbsp;</p>
+	<h3 style="margin: 0px 0px 0.5em; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: blue;">
+		<span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif; font-size: 14px;">ĐIỀU KIỆN THANH TOÁN:</span></h3>
+	<p style="margin: 0px 0px 0.0001pt; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 13.5pt; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">
+		<span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">Sau khi xác nhận dịch vụ, quý khách vui lòng&nbsp; thanh toán 50% tiền cọc giữ chỗ và thanh toán 100%&nbsp; trước ngày khởi hành 5 ngày làm việc (đối với tour Du Lịch định kỳ, ngày thường), chưa bao gồm tiền vé máy bay.</span></p>
+	<p style="margin: 0px 0px 0.0001pt; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 13.5pt; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;">
+		&nbsp;</p>
+	<h3 style="margin: 0px 0px 0.5em; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: blue;">
+		<span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif; font-size: 14px;">ĐIỀU KIỆN HỦY DỊCH VỤ:</span></h3>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">- Hạn hủy tour: hủy trước 3 ngày khởi hành.</span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;"><span style="margin: 0px; padding: 0px;">- Hạn&nbsp;</span><span style="margin: 0px; padding: 0px; background-image: initial; background-attachment: initial; background-size: initial; background-origin: initial; background-clip: initial; background-position: initial; background-repeat: initial;"><span style="margin: 0px; padding: 0px;">hủy vé máy bay: theo quy định của hãng &nbsp;hàng không</span></span></span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		&nbsp;</p>
+	<h3 style="margin: 0px 0px 0.5em; padding: 0px; font-family: Arial, Helvetica, sans-serif; color: blue;">
+		<span style="margin: 0px; padding: 0px; font-size: 14px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">CÁC THÔNG TIN CẦN BIẾT VÀ CHUẨN BỊ:</span></span></h3>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">- Để việc chuẩn bị thực hiện tour được chu đáo, quý khách vui lòng đăng ký sớm ngay khi có ý định đi du lịch.</span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">- HDV CTY thông báo cụ thể thời gian và địa điểm cho khách vào buổi chiều trước ngày khởi hành 01 ngày.</span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">- Ngày khởi hành, quý khách vui lòng tự túc ra sân bay đúng giờ&nbsp; (1 tiếng rưỡi đến 2 tiếng trước giờ bay đối với các chặng bay nội địa) công ty du lịch Hòa Bình không chịu trách nhiệm khi quý khách đến trễ và không mang theo giấy tờ tùy thân (bản chính: chứng minh nhân dân hoặc passport).</span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">- Trong những trường hợp bất khả kháng như: khủng bố, bạo động, thiên tai, sự thay đổi lịch trình của hàng không, tàu hỏa… công ty DL sẽ chủ động thay đổi lộ trình đi hoặc hủy tour vì sự thuận tiện và an toàn của Khách và không chịu trách nhiệm bồi thường cho những chi phí phát sinh.</span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">- Quý khách vui lòng mang theo hành lý gọn nhẹ, mang theo chứng minh nhân dân hoặc hộ chiếu</span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">- Giấy tờ tùy thân, hành lý tư trang quý giá. Quý khách tự giữ lấy.</span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">-&nbsp; Quý khách nên mang theo 01 cây dù xếp để phòng những cơn mưa nhiệt đới bất chợt. Giầy thể thao hoặc dép có quai hậu để tiện đi lại.</span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">- Quý khách cần tuân theo qui định thời gian tập trung của HDV, tránh việc trễ giờ hẹn gây ảnh hưởng chung cho cả đoàn.</span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">- Trước khi rời khỏi chỗ ngồi: trên xe, nhà hàng, điểm tham quan, mua sắm,… quý khách thường xuyên kiểm tra lại hành lý, tư trang cá nhân: bóp, ví, túi xách, máy ảnh, máy quay phim, điện thoại… đề phòng việc bỏ quên, thất lạc gây thiệt hại và ảnh hưởng chuyến tham quan của quý khách.</span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">- Trước khi làm thủ tục nhận/trả phòng khách sạn quý khách phải kiểm tra thật kỹ tất cả hành lý, tư trang cá nhân, tài sản quý giá, giấy tờ tùy thân…</span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">- Quý khách cẩn thận khi đi lại trong các điểm tham quan, không được đứng, leo trèo ở những nơi không an toàn. Cẩn thận khi đi lại trên tàu, đò. Qua đường phải đi đúng luật qui định. Những gia đình có trẻ em vui lòng quan sát và trông giữ các bé cẩn thận.</span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">- Công ty du lịch sẽ hỗ trợ và không chịu trách nhiệm đền bù thiệt hại cho việc: quên, thất lạc hoặc mất mát giấy tờ, hành lý, tài sản của quý khách.</span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		&nbsp;</p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px;">
+		&nbsp;</p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px; text-align: right;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;"><strong style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; color: rgb(255, 0, 0);">CÔNG TY CP DU LỊCH HÒA BÌNH VIỆT NAM</span></strong></span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px; text-align: right;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;"><strong style="margin: 0px; padding: 0px;">60 Võ Văn Tần, P. 6, Q. 3, TP.HCM</strong></span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px; text-align: right;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">Tel: 08.3 9303909 (Xin số: 124,125)- Fax: 08.3 9304416</span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px; text-align: right;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">Hotline: 0913.172.741/0912.024.347</span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px; text-align: right;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">Email: tourtrongnuoc@peacetour.com.vn</span></span></p>
+	<p style="margin: 0px; padding: 0px; color: rgb(0, 0, 0); font-family: Helvetica; line-height: 18px; text-align: right;">
+		<span style="margin: 0px; padding: 0px;"><span style="margin: 0px; padding: 0px; font-family: arial, helvetica, sans-serif;">Website: www.peacetour.com.vn</span></span></p>
+</div>
+<p>
+	&nbsp;</p>
+				
+			</div>
+		</div>
+		</div>
+	</div>
+	
+		<div class="box-relative-tour" id="ajax_tour"><div class="title">&nbsp; TOUR HẤP DẪN KHÁC</div>
+    <ul class="items">
+                
+        <li>
+            <p class="img">
+                <a href="http://peacetour.com.vn/xem-tour/44/da-lat-1-415.html"><img src="http://peacetour.com.vn/data/tours/thumb/1367504372-copy.jpg" width="150" alt="ĐÀ LẠT 1"></a>
+                                                            </p>
+                        <div class="info-tour">
+                <p class="name"><a href="http://peacetour.com.vn/xem-tour/44/da-lat-1-415.html" title="ĐÀ LẠT 1" class="masterTooltip">ĐÀ LẠT 1</a></p>
+                <p class="price">2.626.000 VNĐ</p>
+                <p class="line">
+                    <strong>Khởi hành:</strong> thứ ba hoặc thứ bảy hàng tuần                </p>
+                <p class="line">
+                    <strong>Thời gian:</strong> 4 ngày 3 đêm                </p>
+                <p class="line">
+                    <strong>Phương tiện:</strong> đi về bằng xe                 </p>
+            </div>
+        </li>
+                
+        <li>
+            <p class="img">
+                <a href="http://peacetour.com.vn/xem-tour/44/phu-quoc-30.html"><img src="http://peacetour.com.vn/data/tours/thumb/1366736824.jpg" width="150" alt="PHÚ QUỐC"></a>
+                                                            </p>
+                        <div class="info-tour">
+                <p class="name"><a href="http://peacetour.com.vn/xem-tour/44/phu-quoc-30.html" title="PHÚ QUỐC" class="masterTooltip">PHÚ QUỐC</a></p>
+                <p class="price">2.700.000 VNĐ</p>
+                <p class="line">
+                    <strong>Khởi hành:</strong> thứ sáu hàng tuần                </p>
+                <p class="line">
+                    <strong>Thời gian:</strong> 3 ngày 2 đêm                </p>
+                <p class="line">
+                    <strong>Phương tiện:</strong> đi về bằng xe và máy bay                </p>
+            </div>
+        </li>
+                
+        <li>
+            <p class="img">
+                <a href="http://peacetour.com.vn/xem-tour/44/rach-gia-phu-quoc-138.html"><img src="http://peacetour.com.vn/data/tours/thumb/1369537285.jpg" width="150" alt="RẠCH GIÁ - PHÚ QUỐC"></a>
+                                                            </p>
+                        <div class="info-tour">
+                <p class="name"><a href="http://peacetour.com.vn/xem-tour/44/rach-gia-phu-quoc-138.html" title="RẠCH GIÁ - PHÚ QUỐC" class="masterTooltip">RẠCH GIÁ - PHÚ QUỐC</a></p>
+                <p class="price">4.324.000 VNĐ</p>
+                <p class="line">
+                    <strong>Khởi hành:</strong>                 </p>
+                <p class="line">
+                    <strong>Thời gian:</strong> 4 ngày 3 đêm                </p>
+                <p class="line">
+                    <strong>Phương tiện:</strong> đi về bằng xe và tàu cao tốc                </p>
+            </div>
+        </li>
+                
+        <li>
+            <p class="img">
+                <a href="http://peacetour.com.vn/xem-tour/44/ha-noi-ha-giang-dong-van-lung-cu-ma-pi-leng-ha-noi-446.html"><img src="http://peacetour.com.vn/data/tours/thumb/14248493245.jpg" width="150" alt="HÀ NỘI - HÀ GIANG - ĐỒNG VĂN - LŨNG CÚ - MÃ PÍ LÈNG - HÀ NỘI"></a>
+                                                            </p>
+                        <div class="info-tour">
+                <p class="name"><a href="http://peacetour.com.vn/xem-tour/44/ha-noi-ha-giang-dong-van-lung-cu-ma-pi-leng-ha-noi-446.html" title="HÀ NỘI - HÀ GIANG - ĐỒNG VĂN - LŨNG CÚ - MÃ PÍ LÈNG - HÀ NỘI" class="masterTooltip">HÀ NỘI - HÀ GIANG - ĐỒNG...</a></p>
+                <p class="price">5.450.000 VNĐ</p>
+                <p class="line">
+                    <strong>Khởi hành:</strong> 13/05/2015                </p>
+                <p class="line">
+                    <strong>Thời gian:</strong> 05 ngày 04 đêm                </p>
+                <p class="line">
+                    <strong>Phương tiện:</strong> Đi và về bằng máy bay                </p>
+            </div>
+        </li>
+                
+        <li>
+            <p class="img">
+                <a href="http://peacetour.com.vn/xem-tour/44/da-nang-son-tra-hoi-an-ba-na-hue-dong-phong-nha-364.html"><img src="http://peacetour.com.vn/data/tours/thumb/14180341825.jpg" width="150" alt="ĐÀ NẴNG - SƠN TRÀ - HỘI AN - BÀ NÀ- HUẾ - ĐỘNG PHONG NHA"></a>
+                                                            </p>
+                        <div class="info-tour">
+                <p class="name"><a href="http://peacetour.com.vn/xem-tour/44/da-nang-son-tra-hoi-an-ba-na-hue-dong-phong-nha-364.html" title="ĐÀ NẴNG - SƠN TRÀ - HỘI AN - BÀ NÀ- HUẾ - ĐỘNG PHONG NHA" class="masterTooltip">ĐÀ NẴNG - SƠN TRÀ - HỘI...</a></p>
+                <p class="price">4.095.000 VNĐ</p>
+                <p class="line">
+                    <strong>Khởi hành:</strong> thứ 4, thứ 7 hàng tuần (01/01-30/09/2015).                </p>
+                <p class="line">
+                    <strong>Thời gian:</strong> 5 ngày 4 đêm                </p>
+                <p class="line">
+                    <strong>Phương tiện:</strong> Đi và về bằng máy bay                </p>
+            </div>
+        </li>
+                
+        <li>
+            <p class="img">
+                <a href="http://peacetour.com.vn/xem-tour/44/ha-noi-bai-dinh-trang-an-ha-long-yen-tu-sa-pa-378.html"><img src="http://peacetour.com.vn/data/tours/thumb/14193215785.jpg" width="150" alt="HÀ NỘI - BÁI ĐÍNH - TRÀNG AN- HẠ LONG - YÊN TỬ - SA PA"></a>
+                                                            </p>
+                        <div class="info-tour">
+                <p class="name"><a href="http://peacetour.com.vn/xem-tour/44/ha-noi-bai-dinh-trang-an-ha-long-yen-tu-sa-pa-378.html" title="HÀ NỘI - BÁI ĐÍNH - TRÀNG AN- HẠ LONG - YÊN TỬ - SA PA" class="masterTooltip">HÀ NỘI - BÁI ĐÍNH -...</a></p>
+                <p class="price">6.710.000  VNĐ</p>
+                <p class="line">
+                    <strong>Khởi hành:</strong> thứ năm hàng tuần (01/01/2015 – 30/06/2015)                </p>
+                <p class="line">
+                    <strong>Thời gian:</strong> 6 ngày 5 đêm                </p>
+                <p class="line">
+                    <strong>Phương tiện:</strong> đi về bằng xe và máy bay                 </p>
+            </div>
+        </li>
+                
+        <li>
+            <p class="img">
+                <a href="http://peacetour.com.vn/xem-tour/44/nha-trang-da-lat-1-419.html"><img src="http://peacetour.com.vn/data/tours/thumb/1371974921-copy.jpg" width="150" alt="NHA TRANG - ĐÀ LẠT 1"></a>
+                                                            </p>
+                        <div class="info-tour">
+                <p class="name"><a href="http://peacetour.com.vn/xem-tour/44/nha-trang-da-lat-1-419.html" title="NHA TRANG - ĐÀ LẠT 1" class="masterTooltip">NHA TRANG - ĐÀ LẠT 1</a></p>
+                <p class="price">3.480.000 VNĐ</p>
+                <p class="line">
+                    <strong>Khởi hành:</strong> thứ ba, năm, bảy hàng tuần                </p>
+                <p class="line">
+                    <strong>Thời gian:</strong> 5 ngày 4 đêm                 </p>
+                <p class="line">
+                    <strong>Phương tiện:</strong> đi về bằng xe                </p>
+            </div>
+        </li>
+                
+        <li>
+            <p class="img">
+                <a href="http://peacetour.com.vn/xem-tour/44/nha-trang-da-lat-2-421.html"><img src="http://peacetour.com.vn/data/tours/thumb/14211504343.jpg" width="150" alt="NHA TRANG - ĐÀ LẠT 2"></a>
+                                                            </p>
+                        <div class="info-tour">
+                <p class="name"><a href="http://peacetour.com.vn/xem-tour/44/nha-trang-da-lat-2-421.html" title="NHA TRANG - ĐÀ LẠT 2" class="masterTooltip">NHA TRANG - ĐÀ LẠT 2</a></p>
+                <p class="price">3.230.000 VNĐ</p>
+                <p class="line">
+                    <strong>Khởi hành:</strong> thứ ba, năm, bảy hàng tuần                </p>
+                <p class="line">
+                    <strong>Thời gian:</strong> 5 ngày 4 đêm                 </p>
+                <p class="line">
+                    <strong>Phương tiện:</strong> đi về bằng máy bay                </p>
+            </div>
+        </li>
+                
+        <li>
+            <p class="img">
+                <a href="http://peacetour.com.vn/xem-tour/44/nha-trang-2-412.html"><img src="http://peacetour.com.vn/data/tours/thumb/1366880944-copy.jpg" width="150" alt="NHA TRANG 2"></a>
+                                                            </p>
+                        <div class="info-tour">
+                <p class="name"><a href="http://peacetour.com.vn/xem-tour/44/nha-trang-2-412.html" title="NHA TRANG 2" class="masterTooltip">NHA TRANG 2</a></p>
+                <p class="price">2.562.000 VNĐ</p>
+                <p class="line">
+                    <strong>Khởi hành:</strong> thứ ba, năm, bảy hàng tuần                </p>
+                <p class="line">
+                    <strong>Thời gian:</strong> 4 ngày 3 đêm                </p>
+                <p class="line">
+                    <strong>Phương tiện:</strong> Đi về bằng máy bay                </p>
+            </div>
+        </li>
+                
+        <li>
+            <p class="img">
+                <a href="http://peacetour.com.vn/xem-tour/44/da-lat-3-418.html"><img src="http://peacetour.com.vn/data/tours/thumb/14211425305.jpg" width="150" alt="ĐÀ LẠT 3"></a>
+                                                            </p>
+                        <div class="info-tour">
+                <p class="name"><a href="http://peacetour.com.vn/xem-tour/44/da-lat-3-418.html" title="ĐÀ LẠT 3" class="masterTooltip">ĐÀ LẠT 3</a></p>
+                <p class="price">2.068.000 VNĐ</p>
+                <p class="line">
+                    <strong>Khởi hành:</strong> thứ sáu hàng tuần                </p>
+                <p class="line">
+                    <strong>Thời gian:</strong> 3 ngày 2 đêm                </p>
+                <p class="line">
+                    <strong>Phương tiện:</strong> đi và về bằng xe                 </p>
+            </div>
+        </li>
+                
+    </ul>
+    <div class="pages"><span class="pagebar-mainbody"><a href="javascript:;">&lt;</a><span class="pagebar-selections"><span class="pagelink-current">1</span></span><a href="javascript:;" onclick="tour_page(2)">2</a><a href="javascript:;" onclick="tour_page(3)">3</a><a href="javascript:;" onclick="tour_page(4)">4</a><a href="javascript:;" onclick="tour_page(5)">5</a><a href="javascript:;" onclick="tour_page(6)">6</a><a href="javascript:;" onclick="tour_page(7)">7</a><a href="javascript:;" onclick="tour_page(1+1)">&gt;</a></span>
+</div>
+
+</div>
+            
+</div>
+
+</div>
