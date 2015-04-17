@@ -41,16 +41,48 @@ class A extends Controller {
 
 
 	function tourfree(){
-		$this->layouts->view('a_tourfree',array());
+		$data = array();
+		$this->load->database();
+		$tour = $this->db->query('SELECT * FROM `tour` WHERE `type` = 4');
+		$tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 4 limit 3');
+		
+		$this->layouts->view('a_tourfree',array(
+			'tour' => $tour->result(),
+			'tour_suggest' => $tour_suggest->result(),
+		));
 	}
 	function tourkhuyenmai(){
-		$this->layouts->view('a_tourkhuyenmai',array());
+		$data = array();
+		$this->load->database();
+		$tour = $this->db->query('SELECT * FROM `tour` WHERE `type` = 3');
+		$tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 3 limit 3');
+		
+		$this->layouts->view('a_tourkhuyenmai',array(
+			'tour' => $tour->result(),
+			'tour_suggest' => $tour_suggest->result(),
+		));
 	}
 	function tourngoainuoc(){
-		$this->layouts->view('a_tourngoainuoc',array());
+		$data = array();
+		$this->load->database();
+		$tour = $this->db->query('SELECT * FROM `tour` WHERE `type` = 2');
+		$tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 2 limit 3');
+		
+		$this->layouts->view('a_tourngoainuoc',array(
+			'tour' => $tour->result(),
+			'tour_suggest' => $tour_suggest->result(),
+		));
 	}
 	function tourtrongnuoc(){
-		$this->layouts->view('a_tourtrongnuoc',array());
+		$data = array();
+		$this->load->database();
+		$tour = $this->db->query('SELECT * FROM `tour` WHERE `type` = 1');
+		$tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 1 limit 3');
+		
+		$this->layouts->view('a_tourtrongnuoc',array(
+			'tour' => $tour->result(),
+			'tour_suggest' => $tour_suggest->result(),
+		));
 	}
 	function gioithieu(){
 		$this->layouts->view('a_gioithieu',array());
