@@ -232,12 +232,12 @@
 		<div class="support">
 			<ul class="items">
 				<li>
-					<a href="ymsgr:sendim?hotel.peacetour" title=" Đặt vé máy bay, xe hợp đồng, khách sạn, tour..."><img border="0" align="absmiddle" src="./Du lịch Hòa Bình_files/online(4)" pagespeed_url_hash="1547806218"></a>
-					<span>Khách sạn-Nhà hàng</span>
+					<a href="ymsgr:sendim?hotel.peacetour" title=" Đặt vé máy bay, xe hợp đồng, khách sạn, tour..."><img border="0" align="absmiddle" src="http://opi.yahoo.com/online?u=tournuocngoai&amp;m=g&amp;t=2&amp;3=us" pagespeed_url_hash="1547806218"></a>
+					<span>Tư vấn tour</span>
 				</li>
 				<li>
-					<a href="ymsgr:sendim?peacetour_outbound" title=" Đặt vé máy bay, xe hợp đồng, khách sạn, tour..."><img border="0" align="absmiddle" src="./Du lịch Hòa Bình_files/online(5)" pagespeed_url_hash="3601729825"></a>
-					<span>Tour nước ngoài</span>
+					<a href="ymsgr:sendim?peacetour_outbound" title=" Đặt vé máy bay, xe hợp đồng, khách sạn, tour..."><img border="0" align="absmiddle" src="http://opi.yahoo.com/online?u=tournuocngoai&amp;m=g&amp;t=2&amp;3=us" pagespeed_url_hash="3601729825"></a>
+					<span>Tư vấn thủ tục</span>
 				</li>
 			</ul>
 		</div>
@@ -251,9 +251,9 @@
 	</div>
 	<div class="item0">
 		<p class="img">
-			<a href="http://peacetour.com.vn/xem-tin/tin-du-lich-0/mo-cua-tham-quan-noi-vua-nguyen-doc-sach-2320.html"><img src="/img/imgnews/<?php echo $news_f->img ?>" width="296" alt="<?php echo $news_f->title ?>"></a>
+			<a href="/"><img src="/img/imgnews/<?php echo $news_f->img ?>" width="296" alt="<?php echo $news_f->title ?>"></a>
 		</p>
-		<p class="name"><a href="http://peacetour.com.vn/xem-tin/tin-du-lich-0/mo-cua-tham-quan-noi-vua-nguyen-doc-sach-2320.html"><?php echo $news_f->title ?></a>
+		<p class="name"><a href="/"><?php echo $news_f->title ?></a>
 		</p>
 	</div> 
 	<div class="relative-item0">
@@ -300,7 +300,7 @@
 				if($i != 0){
 		?>
 					<li>
-						<a href="http://peacetour.com.vn/xem-tin/nhat-ky-du-lich-hoa-binh/tranh-nham-lan-giua-2-cong-ty-cp-du-lich-hoa-binh-viet-nam-va-hoa-binh-tphcm-2216.html"><?php echo $value->title ?></a>
+						<a href="/"><?php echo $value->title ?></a>
 					</li>
 		<?php
 				}
