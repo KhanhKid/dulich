@@ -38,9 +38,9 @@ $active_group = "default";
 $active_record = TRUE;
 
 $db['default']['hostname'] = "localhost";
-$db['default']['username'] = "root";
-$db['default']['password'] = "";
-$db['default']['database'] = "sunrisetravel_data";
+$db['default']['username'] = "adminngp8JRU ";
+$db['default']['password'] = "bpT1W-4zBhRQ";
+$db['default']['database'] = "dulich";
 $db['default']['dbdriver'] = "mysql";
 $db['default']['dbprefix'] = "";
 $db['default']['pconnect'] = TRUE;
