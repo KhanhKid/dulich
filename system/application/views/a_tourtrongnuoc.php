@@ -38,17 +38,8 @@
                 	<span>HỖ TRỢ TRỰC TUYẾN</span>
                 </p>
                 <div class="sub-supportOnline">
-                	<ul class="items">
-                								<li>
-							<a href="ymsgr:sendim?tournuocngoai" title=" Đặt vé máy bay, xe hợp đồng, khách sạn, tour..."><img border="0" align="absmiddle" src="http://opi.yahoo.com/online?u=tournuocngoai&amp;m=g&amp;t=1&amp;3=us"></a>
-							<span>Thủ tục Visa</span>
-						</li>
-												<li>
-							<a href="ymsgr:sendim?hb.tourtrongnuoc" title=" Đặt vé máy bay, xe hợp đồng, khách sạn, tour..."><img border="0" align="absmiddle" src="http://opi.yahoo.com/online?u=hb.tourtrongnuoc&amp;m=g&amp;t=1&amp;3=us"></a>
-							<span>Tour Trong Nước </span>
-						</li> 
-									
-                    <li class="hotline">&nbsp;Hotline: 0974.741.072 / 0919.095.778</li>
+                	<ul class="items">					
+                        <li class="hotline">&nbsp;Hotline: 0974.741.072 / 0919.095.778</li>
                     </ul>
                                         
                 	
@@ -149,11 +140,7 @@
             	
 			</div>
 			
-			<div class="ads-left">
-         		<ul class="item-ads">
-         			<li><a href="/" target="_blank"><img src="http://www.peacetour.com.vn/data/ads_tours/full_images/1424831237.jpg" width="235" alt="Phu Quoc"></a></li>         			
-         		</ul>
-         	</div>
+			
          	
 </div>
 <div id="right-tour-main">
@@ -206,9 +193,7 @@
 
 
     <div id="right-tour">
-        <div>
-            <a onclick="change_view(44);" href="javascript:;"><img src="http://www.peacetour.com.vn/site/templates/clients/images/view_tour.jpg" width="235" alt=""></a>
-        </div>
+        
                         <div class="box-top-tour-right">
                     <p class="title">
                         <span>TOP Tour gần đây trong nước</span>
@@ -234,16 +219,7 @@
                                             
                     </p>
                     </div>
-                </div>
-                
-
-                            
-                <!-- box ads  -->
-                           <div class="ads-right">
-                    <ul class="item-ads">
-                            <li><a href="/" target="_blank"><img src="http://www.peacetour.com.vn/data/ads_tours/full_images/1424751403.jpg" width="235" alt="Đồng Tháp"></a></li>                   
-                    </ul>
-                </div>
-    </div>
+                </div>                    
+        </div>
 </div>
 </div>

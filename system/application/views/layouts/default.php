@@ -79,6 +79,9 @@
 							<a class="main" href="/a/khachsan" style="padding: 0px 9px;">Khách sạn</a>
 						</li>
 						<li>
+							<a class="main" href="/a/xe" style="padding: 0px 9px;">Cho thuê xe</a>
+						</li>
+						<li>
 							<a class="main" href="/a/dichvukhac" style="padding: 0px 9px;">Dịch vụ khác</a>
 						</li>
 						<li>
@@ -100,6 +103,8 @@
 						<li><a href="/">Trang chủ</a></li>
 						<li><a href="/a/tourtrongnuoc">Tour trong nước</a></li>
 						<li><a href="/a/tourngoainuoc">Tour nước ngoài</a></li>
+						<li><a href="/a/hotel">Khách sạn</a></li>
+						<li><a href="/a/xe">Cho thuê xe</a></li>
 						<li><a href="/a/dichvukhac">Dịch vụ khác</a></li>
 						<li><a href="/a/thangcan">Danh lam thắng cảnh</a></li>
 					</ul>
@@ -110,12 +115,12 @@
 							<a href="/">
 								<img src="<?php echo $template?>images/logo_f.png" width="85" pagespeed_url_hash="1005337039">
 							</a>
-							<p class="slogun">Nâng cao chất lượng - Tỏa sáng niềm tin</p>
+							<p class="slogun">Nâng cao chất lượng <br>Tỏa sáng niềm tin</p>
 						</div>
 						<ul class="items-address">
 							<li class="name">CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ DU LỊCH SUNRISE</li>
 							<li>18/4B Đường Đông Hưng Thuận 2, Phường Đông Hưng Thuận, Quận 12, TP.HCM, Việt Nam</li>
-							<li><strong>ĐT:</strong> (08) 37152530 - <strong>Fax:</strong>(08) 37152530</li>
+							<li><strong>ĐT:</strong> (08) 37152530 - <strong> Fax: </strong>(08) 37152530</li>
 							<li><strong>Email:</strong> sunrisetsttravel@gmail.com</li>
 							<li>Hotline: 0919 095 778 (Mr.Tâm) / 0916 065 778 (Mss.Trang)</li>
 						</ul>

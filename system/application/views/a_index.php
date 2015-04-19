@@ -230,16 +230,6 @@
 	</div>
 	<div class="box-video-supprt">
 		<div class="support">
-			<ul class="items">
-				<li>
-					<a href="ymsgr:sendim?hotel.peacetour" title=" Đặt vé máy bay, xe hợp đồng, khách sạn, tour..."><img border="0" align="absmiddle" src="http://opi.yahoo.com/online?u=tournuocngoai&amp;m=g&amp;t=2&amp;3=us" pagespeed_url_hash="1547806218"></a>
-					<span>Tư vấn tour</span>
-				</li>
-				<li>
-					<a href="ymsgr:sendim?peacetour_outbound" title=" Đặt vé máy bay, xe hợp đồng, khách sạn, tour..."><img border="0" align="absmiddle" src="http://opi.yahoo.com/online?u=tournuocngoai&amp;m=g&amp;t=2&amp;3=us" pagespeed_url_hash="3601729825"></a>
-					<span>Tư vấn thủ tục</span>
-				</li>
-			</ul>
 		</div>
 	</div>
 	</div>
