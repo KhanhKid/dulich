@@ -124,7 +124,7 @@
 						<ul class="items">
 							<li>Số đăng ký kinh doanh: 0312972829 do Sở kế hoạch và đầu tư Tp.HCM cấp</li>
 							<li>Người chịu trách nhiệm trang web: ông Đỗ Minh Tâm</li>
-							<li>© Copyright <?ohp echo date('Y'); ?> - Sunrise TST Co., All rights reserved</li>
+							<li>© Copyright <?php echo date('Y'); ?> - Sunrise TST Co., All rights reserved</li>
 						</ul>
 					</div>
 				</div>
