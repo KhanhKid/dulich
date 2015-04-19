@@ -98,6 +98,9 @@ class A extends Controller {
 	function khachsan(){
 		$this->layouts->view('a_khachsan',array());
 	}
+	function xe(){
+		$this->layouts->view('a_xe',array());
+	}
 	function lienhe(){
 		$this->layouts->view('a_lienhe',array());
 	}

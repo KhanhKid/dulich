@@ -5,7 +5,7 @@
 <html>
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title>Du lịch Sun Rise TST Travel </title>
+		<title>Du lịch Sunrise TST Travel </title>
 		<meta name="description" content="CÔNG TY DU LỊCH SUN RISE TST TRAVEL - Du lich trong nuoc, Du lich nuoc ngoai, Ve may bay, Thue xe du lich, Dat phong khach san">
 		<meta name="keywords" content="    du lịch giá rẻ,tour giá rẻ,tour du lịch,du lịch trong nước,du lịch nước ngoài,đặt phòng khách sạn,mua vé máy bay,tour tiết kiệm,cty du lịch uy tín">
 
@@ -110,22 +110,21 @@
 							<a href="/">
 								<img src="<?php echo $template?>images/logo_f.png" width="85" pagespeed_url_hash="1005337039">
 							</a>
-							<p class="slogun">Thắp sáng tình yêu việt</p>
+							<p class="slogun">Nâng cao chất lượng - Tỏa sáng niềm tin</p>
 						</div>
 						<ul class="items-address">
-							<li class="name">CÔNG TY CỔ PHẦN DU LỊCH Sunrise TST Travel</li>
-							<li>60 Võ Văn Tần, quận 3, TP. Hồ Chí Minh, Việt Nam</li>
-							<li><strong>ĐT:</strong> (84.8) 3933.0228 (Xe), (84.8) 3930.4079 (Vé), (84.8) 3930.3325 (Tour)</li>
-							<li><strong>Email:</strong> peacetour@hcm.vnn.vn</li>
-							<li>Fax: (84.8) 3930.4416 - Hotline: 0913.172741 / 0912.024.347</li>
+							<li class="name">CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ DU LỊCH SUNRISE</li>
+							<li>18/4B Đường Đông Hưng Thuận 2, Phường Đông Hưng Thuận, Quận 12, TP.HCM, Việt Nam</li>
+							<li><strong>ĐT:</strong> (08) 37152530 - <strong>Fax:</strong>(08) 37152530</li>
+							<li><strong>Email:</strong> sunrisetsttravel@gmail.com</li>
+							<li>Hotline: 0919 095 778 (Mr.Tâm) / 0916 065 778 (Mss.Trang)</li>
 						</ul>
 					</div>
 					<div class="copyright">
 						<ul class="items">
-							<li>Số đăng ký kinh doanh: 0300469106 do Sở kế hoạch và đầu tư Tp.HCM cấp</li>
-							<li>Số giấy phép thiết lập trang TTĐTTH: 87/GP-ICP-STTTT cấp ngày29/10/2012</li>
-							<li>Người chịu trách nhiệm trang web: bà Hoàng Lê Quyên</li>
-							<li>© Copyright 2011 - Peace Tour Co., All rights reserved</li>
+							<li>Số đăng ký kinh doanh: 0312972829 do Sở kế hoạch và đầu tư Tp.HCM cấp</li>
+							<li>Người chịu trách nhiệm trang web: ông Đỗ Minh Tâm</li>
+							<li>© Copyright <?ohp echo date('Y'); ?> - Sunrise TST Co., All rights reserved</li>
 						</ul>
 					</div>
 				</div>
