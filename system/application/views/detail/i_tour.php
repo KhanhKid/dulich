@@ -21,7 +21,7 @@
     </div>
 <div class="brand">
     <ul>
-        <li><a class="home" href="http://www.peacetour.com.vn/">Trang chủ</a></li>
+        <li><a class="home" href="/">Trang chủ</a></li>
         <?php
             switch ($data->type) {
                 case 1:
