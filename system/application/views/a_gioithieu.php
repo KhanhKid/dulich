@@ -12,7 +12,7 @@
 	
 	<div class="sub-left">	
 
-		<p>Đang cập nhật.... </p>
+		<p><img width="100%" src="/img/gioi-thieu.jpg"></p>
 		
 	</div>
 	
@@ -22,32 +22,25 @@
             
         
     <div class="group-photo">
-        <a href="ymsgr:sendim?hotel.peacetour" title=" Đặt vé máy bay, xe hợp đồng, khách sạn, tour..."><img border="0" align="absmiddle" src="http://opi.yahoo.com/online?u=tournuocngoai&amp;m=g&amp;t=2&amp;3=us" pagespeed_url_hash="1547806218"></a>
-                    <span>Tư vấn tour</span>
-    </div>
-    <br>
-    <div class="group-photo">
-        <a href="ymsgr:sendim?hotel.peacetour" title=" Đặt vé máy bay, xe hợp đồng, khách sạn, tour..."><img border="0" align="absmiddle" src="http://opi.yahoo.com/online?u=tournuocngoai&amp;m=g&amp;t=2&amp;3=us" pagespeed_url_hash="1547806218"></a>
-                    <span>Tư vấn tour</span>
+       
     </div>
     
     <div class="ads-news-r">
-        <ul class="items-ads">
-                    </ul>
-    
+
     </div>
     
     
     <div class="box-online">
-        <p class="title">&nbsp; LIÊN KẾT WEBSITE</p>
-        <div class="box-content">
-            <select name="" style="width: 99%;height: 30px;" onchange="window.open(this.value,&#39;_blank&#39;);">
-	<option value="">|- Chọn liên kết website</option>
-        <option value="/">|- Hoa Binh Rach Gia Resort</option>
-        <option value="/">|- Hoa Binh Phu Quoc Resort</option>
-    </select>   
-
-        </div>
+        <div id="fb-root"></div>
+            <script>(function(d, s, id) {
+              var js, fjs = d.getElementsByTagName(s)[0];
+              if (d.getElementById(id)) return;
+              js = d.createElement(s); js.id = id;
+              js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=1018213634855656";
+              fjs.parentNode.insertBefore(js, fjs);
+            }(document, 'script', 'facebook-jssdk'));</script>
+        <div class="fb-page" data-href="https://www.facebook.com/pages/Sunrise-TST-Travel/1569215376630971?__mref=message_bubble" data-width="300" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/pages/Sunrise-TST-Travel/1569215376630971?__mref=message_bubble"><a href="https://www.facebook.com/pages/Sunrise-TST-Travel/1569215376630971?__mref=message_bubble">Sunrise TST Travel</a></blockquote></div></div>
+        
     </div>    
 </div>					
 </div>

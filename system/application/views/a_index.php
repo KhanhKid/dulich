@@ -3,18 +3,26 @@
 		 <div class="callbacks_container">
 		  <ul class="rslides" id="slider4">
 			<li>
-			  <img src="http://www.peacetour.com.vn/data/ads/471/1419648781.jpg" alt="">
+			  <img src="/img/imgbanner/1.jpg" alt="">
 			  <p class="caption">This is a caption</p>
 			</li>
 			<li>
-			  <img src="http://www.peacetour.com.vn/data/ads/471/1410946755.jpg" alt="">
-			  <p class="caption">This is another caption</p>
+			  <img src="/img/imgbanner/2.jpg" alt="">
+			  <p class="caption">This is a caption</p>
 			</li>
 			<li>
-			  <img src="http://www.peacetour.com.vn/data/ads/471/1419648781.jpg" alt="">
-			  <p class="caption">The third caption</p>
+			  <img src="/img/imgbanner/3.jpg" alt="">
+			  <p class="caption">This is a caption</p>
 			</li>
-		  </ul>
+			<li>
+			  <img src="/img/imgbanner/4.jpg" alt="">
+			  <p class="caption">This is a caption</p>
+			</li>
+			<li>
+			  <img src="/img/imgbanner/5.jpg" alt="">
+			  <p class="caption">This is a caption</p>
+			</li>
+			</ul>
 		</div>
 	</div> 
 	<div class="clear"></div>
@@ -230,6 +238,15 @@
 	</div>
 	<div class="box-video-supprt">
 		<div class="support">
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=1018213634855656";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+			<div class="fb-page" data-href="https://www.facebook.com/pages/Sunrise-TST-Travel/1569215376630971?__mref=message_bubble" data-width="300" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/pages/Sunrise-TST-Travel/1569215376630971?__mref=message_bubble"><a href="https://www.facebook.com/pages/Sunrise-TST-Travel/1569215376630971?__mref=message_bubble">Sunrise TST Travel</a></blockquote></div></div>
 		</div>
 	</div>
 	</div>

@@ -54,7 +54,7 @@
 					</div>
 					<div class="box-search">
 						<div class="holine"></div>
-					<form name="frmSearch" action="http://peacetour.com.vn/search.html" method="get" onsubmit="return Search.getFromHeader();" _lpchecked="1">
+					<form name="frmSearch" action="/i/search/" method="post">
 					<div class="bg-search-header"> 
 						<input type="text" class="search" value="" id="q" name="q" style="color: rgb(255, 255, 255);">
 						<input type="submit" value="">
@@ -82,6 +82,9 @@
 							<a class="main" href="/a/xe" style="padding: 0px 9px;">Cho thuê xe</a>
 						</li>
 						<li>
+							<a class="main" href="/a/vemaybay" style="padding: 0px 9px;">Vé máy bay</a>
+						</li>
+						<li>
 							<a class="main" href="/a/dichvukhac" style="padding: 0px 9px;">Dịch vụ khác</a>
 						</li>
 						<li>
@@ -105,6 +108,7 @@
 						<li><a href="/a/tourngoainuoc">Tour nước ngoài</a></li>
 						<li><a href="/a/hotel">Khách sạn</a></li>
 						<li><a href="/a/xe">Cho thuê xe</a></li>
+						<li><a href="/a/vemaybay">Vé máy bay</a></li>
 						<li><a href="/a/dichvukhac">Dịch vụ khác</a></li>
 						<li><a href="/a/thangcan">Danh lam thắng cảnh</a></li>
 					</ul>

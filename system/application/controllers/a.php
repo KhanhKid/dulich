@@ -83,6 +83,9 @@ class A extends Controller {
 	function gioithieu(){
 		$this->layouts->view('a_gioithieu',array());
 	}
+	function vemaybay(){
+		$this->layouts->view('a_vemaybay',array());
+	}
 	function dichvukhac(){
 		$this->layouts->view('a_dichvukhac',array());
 	}
