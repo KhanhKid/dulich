@@ -6,7 +6,7 @@ class A extends Controller {
 	{
 		parent::Controller();	
 		$this->load->library('Layouts');
-		
+		$this->load->database();
 	}
 	
 	function index(){
@@ -15,7 +15,6 @@ class A extends Controller {
 		$this->layouts->add_include('js/simple_js.js')
 					  ->add_include('css/simple_css.css');
 		$data = array();
-		$this->load->database();
 		$tourtrongnuoc = $this->db->query('SELECT * FROM `tour` WHERE `type` = 1 limit 3');
 		$tourngoainuoc = $this->db->query('SELECT * FROM `tour` WHERE `type` = 2 limit 3');
 		$tourkhuyenmai = $this->db->query('SELECT * FROM `tour` WHERE `type` = 3 limit 3');
@@ -27,9 +26,9 @@ class A extends Controller {
 		
 		$this->layouts->view('a_index',array(
 			'tourtrongnuoc' => $tourtrongnuoc->result(),
-			'tourngoainuoc' => $tourtrongnuoc->result(),
-			'tourkhuyenmai' => $tourtrongnuoc->result(),
-			'tourfree' => $tourtrongnuoc->result(),
+			'tourngoainuoc' => $tourngoainuoc->result(),
+			'tourkhuyenmai' => $tourkhuyenmai->result(),
+			'tourfree' => $tourfree->result(),
 			'visa_f' => $visa_all->result()[0],
 			'visa_all' => $visa_all->result(),
 			'news_f' => $news_all->result()[0],
@@ -42,7 +41,6 @@ class A extends Controller {
 
 	function tourfree(){
 		$data = array();
-		$this->load->database();
 		$tour = $this->db->query('SELECT * FROM `tour` WHERE `type` = 4');
 		$tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 4 limit 3');
 		
@@ -53,7 +51,6 @@ class A extends Controller {
 	}
 	function tourkhuyenmai(){
 		$data = array();
-		$this->load->database();
 		$tour = $this->db->query('SELECT * FROM `tour` WHERE `type` = 3');
 		$tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 3 limit 3');
 		
@@ -64,7 +61,6 @@ class A extends Controller {
 	}
 	function tourngoainuoc(){
 		$data = array();
-		$this->load->database();
 		$tour = $this->db->query('SELECT * FROM `tour` WHERE `type` = 2');
 		$tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 2 limit 3');
 		
@@ -75,7 +71,7 @@ class A extends Controller {
 	}
 	function tourtrongnuoc(){
 		$data = array();
-		$this->load->database();
+		
 		$tour = $this->db->query('SELECT * FROM `tour` WHERE `type` = 1');
 		$tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 1 limit 3');
 		
@@ -91,10 +87,13 @@ class A extends Controller {
 		$this->layouts->view('a_dichvukhac',array());
 	}
 	function thutucvisa(){
-		$this->layouts->view('a_thutucvisa',array());
+		$list = $this->db->query('SELECT * FROM `visa` order by ID Desc' );
+		$this->layouts->view('a_thutucvisa',array('list'=>$list->result()));
 	}
 	function thangcanh(){
-		$this->layouts->view('a_thangcanh',array());
+
+		$list = $this->db->query('SELECT * FROM `place` order by ID Desc' );
+		$this->layouts->view('a_thangcanh',array('list'=>$list->result()));
 	}
 	function khachsan(){
 		$this->layouts->view('a_khachsan',array());
@@ -103,10 +102,13 @@ class A extends Controller {
 		$this->layouts->view('a_lienhe',array());
 	}
 	function tindulich(){
-		$this->layouts->view('a_tindulich',array());
+		$list = $this->db->query('SELECT * FROM `news` order by ID Desc' );
+		$this->layouts->view('a_tindulich',array('list'=>$list->result()));
 	}	
 	function nhatky(){
-		$this->layouts->view('a_tindulich',array());
+
+		$list = $this->db->query('SELECT * FROM `dairy` order by ID Desc' );
+		$this->layouts->view('a_nhatky',array('list'=>$list->result()));
 	}
 }
 

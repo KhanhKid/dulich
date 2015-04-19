@@ -42,13 +42,13 @@
 									echo '<span class="text_hot">'.$value->texthot.'</span> <span class="hot"></span>';
 								}
 							?>
-							<a href="#">
+							<a href="/i/tour/<?php echo $value->ID ?>">
 								<img src="/img/imgtour/<?php echo $value->img?>" width="150" height="100" alt="<?php echo $value->name?>">
 							</a>
 						</p>
 						<div class="info-tour">
 							<p class="name">
-								<a href="#" class="masterTooltip" title="<?php echo $value->name?>"><?php echo $value->name?>
+								<a href="/i/tour/<?php echo $value->ID ?>" class="masterTooltip" title="<?php echo $value->name?>"><?php echo $value->name?>
 								</a>
 							</p>
 							<p class="line"><strong>Thời gian:</strong> <?php echo $value->timeday?> ngày <?php echo $value->timenight?> đêm</p>
@@ -79,13 +79,13 @@
 									echo '<span class="text_hot">'.$value->texthot.'</span> <span class="hot"></span>';
 								}
 							?>
-							<a href="#">
+							<a href="/i/tour/<?php echo $value->ID ?>">
 								<img src="/img/imgtour/<?php echo $value->img?>" width="150" height="100" alt="<?php echo $value->name?>">
 							</a>
 						</p>
 						<div class="info-tour">
 							<p class="name">
-								<a href="#" class="masterTooltip" title="<?php echo $value->name?>"><?php echo $value->name?>
+								<a href="/i/tour/<?php echo $value->ID ?>" class="masterTooltip" title="<?php echo $value->name?>"><?php echo $value->name?>
 								</a>
 							</p>
 							<p class="line"><strong>Thời gian:</strong> <?php echo $value->timeday?> ngày <?php echo $value->timenight?> đêm</p>
@@ -122,13 +122,13 @@
 									echo '<span class="text_hot">'.$value->texthot.'</span> <span class="hot"></span>';
 								}
 							?>
-							<a href="#">
+							<a href="/i/tour/<?php echo $value->ID ?>">
 								<img src="/img/imgtour/<?php echo $value->img?>" width="150" height="100" alt="<?php echo $value->name?>">
 							</a>
 						</p>
 						<div class="info-tour">
 							<p class="name">
-								<a href="#" class="masterTooltip" title="<?php echo $value->name?>"><?php echo $value->name?>
+								<a href="/i/tour/<?php echo $value->ID ?>" class="masterTooltip" title="<?php echo $value->name?>"><?php echo $value->name?>
 								</a>
 							</p>
 							<p class="line"><strong>Thời gian:</strong> <?php echo $value->timeday?> ngày <?php echo $value->timenight?> đêm</p>
@@ -159,13 +159,13 @@
 									echo '<span class="text_hot">'.$value->texthot.'</span> <span class="hot"></span>';
 								}
 							?>
-							<a href="#">
+							<a href="/i/tour/<?php echo $value->ID ?>">
 								<img src="/img/imgtour/<?php echo $value->img?>" width="150" height="100" alt="<?php echo $value->name?>">
 							</a>
 						</p>
 						<div class="info-tour">
 							<p class="name">
-								<a href="#" class="masterTooltip" title="<?php echo $value->name?>"><?php echo $value->name?>
+								<a href="/i/tour/<?php echo $value->ID ?>" class="masterTooltip" title="<?php echo $value->name?>"><?php echo $value->name?>
 								</a>
 							</p>
 							<p class="line"><strong>Thời gian:</strong> <?php echo $value->timeday?> ngày <?php echo $value->timenight?> đêm</p>
@@ -200,13 +200,13 @@
 			</div>
 			<div class="item0">
 				<p class="img">
-					<a href="/">
+					<a href="/i/visa/<?php echo $visa_f->ID ?>">
 						<img src="/img/imgvisa/<?php echo $visa_f->img ?>" width="150" alt="<?php echo $visa_f->title ?>">
 					</a>
 				</p>
 				<div class="info-service">
 					<p class="name">
-						<a href="/"> <?php echo $visa_f->title ?>
+						<a href="/i/visa/<?php echo $visa_f->ID ?>"> <?php echo $visa_f->title ?>
 						</a>
 					</p>
 					<p class="summary"></p>
@@ -219,7 +219,7 @@
 						# code...
 						if($i != 0){
 				?>
-							<li><a href="/"><?php echo $value->title ?></a></li>
+							<li><a href="/i/visa/<?php echo $value->ID ?>"><?php echo $value->title ?></a></li>
 				<?php
 						}
 						$i++;
@@ -251,9 +251,9 @@
 	</div>
 	<div class="item0">
 		<p class="img">
-			<a href="/"><img src="/img/imgnews/<?php echo $news_f->img ?>" width="296" alt="<?php echo $news_f->title ?>"></a>
+			<a href="/i/news/<?php echo $news_f->ID ?>"><img src="/img/imgnews/<?php echo $news_f->img ?>" width="296" alt="<?php echo $news_f->title ?>"></a>
 		</p>
-		<p class="name"><a href="/"><?php echo $news_f->title ?></a>
+		<p class="name"><a href="/i/news/<?php echo $news_f->ID ?>"><?php echo $news_f->title ?></a>
 		</p>
 	</div> 
 	<div class="relative-item0">
@@ -265,7 +265,7 @@
 						if($i != 0){
 				?>
 					<li>
-						<a href="/"><?php echo $value->title ?></a>
+						<a href="/i/news/<?php echo $value->ID ?>"><?php echo $value->title ?></a>
 					</li>
 				<?php
 						}
@@ -282,13 +282,13 @@
 	</div>
 	<div class="item0">
 		<p class="img">
-			<a href="/">
+			<a href="/i/dairy/<?php echo $dairy_f->ID ?>">
 				<img src="/img/imgdairy/<?php echo $dairy_f->img ?>" width="115" alt="<?php echo $dairy_f->title ?>">
 			</a>
 		</p>
 		<div class="info-news">
 			<p class="name">
-				<a href="/"><?php echo $dairy_f->title ?></a>
+				<a href="/i/dairy/<?php echo $dairy_f->ID ?>"><?php echo $dairy_f->title ?></a>
 			</p>
 		</div>
 	</div> 
@@ -300,7 +300,7 @@
 				if($i != 0){
 		?>
 					<li>
-						<a href="/"><?php echo $value->title ?></a>
+						<a href="/i/dairy/<?php echo $value->ID ?>"><?php echo $value->title ?></a>
 					</li>
 		<?php
 				}

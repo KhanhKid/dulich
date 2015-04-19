@@ -54,6 +54,14 @@
 					</div>
 					<div class="box-search">
 						<div class="holine"></div>
+					<form name="frmSearch" action="http://peacetour.com.vn/search.html" method="get" onsubmit="return Search.getFromHeader();" _lpchecked="1">
+					<div class="bg-search-header"> 
+						<input type="text" class="search" value="" id="q" name="q" style="color: rgb(255, 255, 255);">
+						<input type="submit" value="">
+					</div>
+					
+					</form>
+
 					</div>
 				</div>
 				<div class="nav">

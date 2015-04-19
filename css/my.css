@@ -148,3 +148,114 @@
   background-position: right top;
   right: 0;
   }
+  
+.box-search-menu-top div.menu-top {
+	clear: both;
+	
+}
+
+.box-search-menu-top div.menu-top ul.menu-item {
+	clear: both;
+	padding-top: 10px;
+	float: left;
+	width: 295px;
+	
+	list-style: none;
+	text-align: right;
+}
+
+.box-search-menu-top div.menu-top ul.menu-item li {
+	display: inline;
+	color: #e5e5e5;
+    position: relative;
+}
+
+.box-search-menu-top div.menu-top ul.menu-item li a {
+	color: #e5e5e5;
+	padding: 0px 6px;
+	font-weight: bold;
+}
+.box-search-menu-top div.menu-top ul.menu-item li ul{
+    position: absolute;
+    top: 14px;
+    left: 5px;
+    width: 180px;
+    background: #f2f2f2;
+    visibility: hidden;   
+}
+.box-search-menu-top div.menu-top ul.menu-item li ul li{
+    overflow: hidden;
+    display: block;
+}
+.box-search-menu-top div.menu-top ul.menu-item li ul li a{
+    text-align: left;
+    float: left;
+    padding: 5px;
+    color: #333;
+    font-weight: 100;
+}
+.box-search-menu-top div.menu-top ul.menu-item li ul li:hover{
+    background: #CCC;
+}
+.box-search-menu-top div.menu-top ul.menu-item li ul li:hover a{
+    color: #CC0000;
+    text-decoration: none;
+}
+.box-search-menu-top div.menu-top ul.menu-item li.gt:hover ul{
+    visibility: visible;
+}
+
+.box-search-menu-top div.language {
+	float: left;
+	margin-top: 8px;
+	width: 82px;
+}
+
+.box-search {
+	clear: both;
+	margin-top: 0px;
+	overflow: hidden;
+	color: #eee;
+	width: 213px;
+	float: right;
+}
+
+/* .box-search p.advanced-search {
+	float: left;
+	overflow: hidden;
+	padding-left: 10px;
+}
+
+.box-search p.advanced-search a {
+	color: #eee;
+	line-height: 30px;
+} */
+
+.box-search-menu-top div.bg-search-header {
+	clear: both;
+	float: left;
+	background: url(../images/sprite.png) no-repeat 0px 0px;
+	width: 200px;
+	height: 30px;
+	padding-top: 0px;
+}
+
+div.bg-search-header input[type="text"] {
+	background: none;
+	border: none;
+	width: 150px;
+	height:20px;
+	color: #eee;
+	padding:5px;
+	font-size: 11px;
+	margin-top:0px;
+}
+
+ div.bg-search-header input[type="submit"] {
+	background: none;
+	width: 32px;
+	height: 30px;
+	cursor: pointer;
+	border: none;
+ 	float: right;
+}

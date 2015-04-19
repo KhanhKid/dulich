@@ -22,24 +22,9 @@
 							<a href="ymsgr:sendim?hb.tourtrongnuoc" title=" Đặt vé máy bay, xe hợp đồng, khách sạn, tour..."><img border="0" align="absmiddle" src="http://opi.yahoo.com/online?u=hb.tourtrongnuoc&amp;m=g&amp;t=1&amp;3=us"></a>
 							<span>Tour Trong Nước </span>
 						</li>
-												<li>
-							<a href="ymsgr:sendim?hb.dichvuthuexe" title=" Đặt vé máy bay, xe hợp đồng, khách sạn, tour..."><img border="0" align="absmiddle" src="http://opi.yahoo.com/online?u=hb.dichvuthuexe&amp;m=g&amp;t=1&amp;3=us"></a>
-							<span>Dịch vụ thuê xe</span>
-						</li>
-												<li>
-							<a href="ymsgr:sendim?airpeacetour" title=" Đặt vé máy bay, xe hợp đồng, khách sạn, tour..."><img border="0" align="absmiddle" src="http://opi.yahoo.com/online?u=airpeacetour&amp;m=g&amp;t=1&amp;3=us"></a>
-							<span>Vé Máy Bay </span>
-						</li>
-												<li>
-							<a href="ymsgr:sendim?hotel.peacetour" title=" Đặt vé máy bay, xe hợp đồng, khách sạn, tour..."><img border="0" align="absmiddle" src="http://opi.yahoo.com/online?u=hotel.peacetour&amp;m=g&amp;t=1&amp;3=us"></a>
-							<span>Khách sạn-Nhà hàng</span>
-						</li>
-												<li>
-							<a href="ymsgr:sendim?peacetour_outbound" title=" Đặt vé máy bay, xe hợp đồng, khách sạn, tour..."><img border="0" align="absmiddle" src="http://opi.yahoo.com/online?u=peacetour_outbound&amp;m=g&amp;t=1&amp;3=us"></a>
-							<span>Tour nước ngoài</span>
-						</li>
+						
 									
-                    <li class="hotline">&nbsp;Hotline: 0913.172741 / 0912.024.347</li>
+                    <li class="hotline">&nbsp;Hotline: 0974.741.072 / 0919.095.778</li>
                     </ul>
                                         
                 	
@@ -163,14 +148,14 @@
                 ?>
                 <li>
                     <p class="img">
-                    <a href="#">
+                    <a href="/i/tour/<?php echo $value->ID ?>">
                     <img src="/img/imgtour/<?php echo $value->img?>" width="150" alt="<?php echo $value->name?>">
 
                     </a>
 
                     </p>
                     <div class="info-tour">
-                    <p class="name"><a href="#"><?php echo $value->name?></a></p>
+                    <p class="name"><a href="/i/tour/<?php echo $value->ID ?>"><?php echo $value->name?></a></p>
                     <p class="price"><?php echo $value->price?> VNĐ</p>
                     <p class="line">
                     <strong>Khởi hành:</strong> <?php echo $value->startdate?>                            </p>                           
