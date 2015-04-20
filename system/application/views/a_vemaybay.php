@@ -15,7 +15,7 @@
 		<p><img width="100%" src="/img/phongve.jpg"></p>
     <p style="margin: 4pt 0in; text-align: right;">
     <strong>
-      <a href="/file/phong-ve.pdf">
+      <a href="/img/phong-ve.pdf">
         <span style="font-size:14px;"><span style="font-family: arial,helvetica,sans-serif;">Download</span></span>
       </a>
       </strong>

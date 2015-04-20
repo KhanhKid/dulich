@@ -12,10 +12,10 @@
 
 	<div class="sub-left">
 
-		<p><img width="100%" src="/img/thue-xe.jpg"></p>
+		<p><img width="100%" src="/img/thuexe.jpg"></p>
     <p style="margin: 4pt 0in; text-align: right;">
     <strong>
-      <a href="/file/thue-xe.pdf">
+      <a href="/img/thue-xe.pdf">
         <span style="font-size:14px;"><span style="font-family: arial,helvetica,sans-serif;">Download</span></span>
       </a>
       </strong>

@@ -12,11 +12,11 @@
 
 	<div class="sub-left">
 
-    <p><img width="100%" src="/img/gioi-thieu1.jpg"></p><br>
-		<p><img width="100%" src="/img/gioi-thieu2.jpg"></p>
+    <p><img width="100%" src="/img/gioithieu1.jpg"></p><br>
+		<p><img width="100%" src="/img/gioithieu2.jpg"></p>
     <p style="margin: 4pt 0in; text-align: right;">
     <strong>
-      <a href="/file/gioi-thieu.pdf">
+      <a href="/img/gioi-thieu.pdf">
         <span style="font-size:14px;"><span style="font-family: arial,helvetica,sans-serif;">Download</span></span>
       </a>
       </strong>
