@@ -4,7 +4,7 @@
 	<div class="pathway-news">
       			<div itemscope=""><a href="/" itemprop="url" class="homepage"><span itemprop="title">Trang chủ</span></a></div>
 
-     			<div itemscope=""  class="no-bg"><a href="/a/xe" itemprop="url" class="homepage"><span itemprop="title">PHÒNG VÉ</span></a></div>
+     			<div itemscope=""  class="no-bg"><a href="/a/vemaybay" itemprop="url" class="homepage"><span itemprop="title">PHÒNG VÉ</span></a></div>
 
 
 	</div>
