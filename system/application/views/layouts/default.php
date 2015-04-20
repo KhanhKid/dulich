@@ -14,7 +14,7 @@
 		<link href="<?php echo $template?>css/show_albums.css" rel="stylesheet">
 		<script type="text/javascript" language="javascript" src="<?php echo $template?>js/jquery.js"></script>
 
-		
+
 		<link href="<?php echo $template?>css/menu.css" rel="stylesheet">
 		<link href="<?php echo $template?>css/css_tooltip.css" rel="stylesheet">
 		<link href="<?php echo $template?>css/default.css" media="screen" rel="stylesheet" type="text/css">
@@ -23,13 +23,13 @@
 
 <body style="background:url(<?php echo $template?>images/body_bg.jpg) no-repeat fixed center top" gram_dict="true">
 	<div id="dhtmltooltip"></div>
-	<img id="dhtmlpointer" src="./Du lịch Hòa Bình_files/tooltiparrow.gif">
+	<img id="dhtmlpointer" src="/images/tooltiparrow.gif">
 	<script type="text/javascript" src="<?php echo $template?>js/jquery.watermarkinput.js" charset="UTF-8"></script>
 	<script type="text/javascript" src="<?php echo $template?>js/search.js" charset="UTF-8"></script>
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
 	<script src="<?php echo $template?>js/responsiveslides.min.js"></script>
 	<script type="text/javascript" charset="utf-8" src="<?php echo $template?>js/common.js"></script>
-	
+
 	<link rel="stylesheet" href="<?php echo $template?>css/slider.css" type="text/css" media="screen">
 	<link rel="stylesheet" type="text/css" href="<?php echo $template?>css/my.css">
 
@@ -55,11 +55,11 @@
 					<div class="box-search">
 						<div class="holine"></div>
 					<form name="frmSearch" action="/i/search/" method="post">
-					<div class="bg-search-header"> 
+					<div class="bg-search-header">
 						<input type="text" class="search" value="" id="q" name="q" style="color: rgb(255, 255, 255);">
 						<input type="submit" value="">
 					</div>
-					
+
 					</form>
 
 					</div>
@@ -97,9 +97,9 @@
 		<div id="content-wapper-main">
 			<?php echo $content_for_layout; ?>
 		</div>
-		
-		
-		
+
+
+
 		<div id="footer">
 				<div class="menu-footer chrome_nav">
 					<ul id="nav" class="dropdown dropdown-horizontal dropdown-upward">

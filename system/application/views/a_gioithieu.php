@@ -12,8 +12,8 @@
 
 	<div class="sub-left">
 
-    <p><img width="100%" src="/img/gioithieu1.png"></p><br>
-		<p><img width="100%" src="/img/gioithieu2.png"></p>
+    <p><img width="100%" src="/img/gioithieu1.jpg"></p><br>
+		<p><img width="100%" src="/img/gioithieu2.jpg"></p>
     <p style="margin: 4pt 0in; text-align: right;">
     <strong>
       <a href="/img/gioi-thieu.pdf">
