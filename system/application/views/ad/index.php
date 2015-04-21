@@ -1,4 +1,11 @@
-﻿<div id="page-wrapper">
+<!-- Morris Charts CSS -->
+<link href="/template/bower_components/morrisjs/morris.css" rel="stylesheet">
+<!-- Morris Charts JavaScript -->
+<script src="/template/bower_components/raphael/raphael-min.js"></script>
+<script src="/template/bower_components/morrisjs/morris.min.js"></script>
+<script src="/template/js/morris-data.js"></script>
+
+<div id="page-wrapper">
     <div class="row">
         <div class="col-lg-12">
             <h1 class="page-header">Dashboard</h1>
