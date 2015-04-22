@@ -12,7 +12,7 @@
 
 	<div class="sub-left">
 
-		<iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=C%C3%94NG%20TY%20TNHH%20TH%C6%AF%C6%A0NG%20M%E1%BA%A0I%20V%C3%80%20D%E1%BB%8ACH%20V%E1%BB%A4%20DU%20L%E1%BB%8ACH%20SUNRISE&key=AIzaSyDgs91_EZvfzEq7ij99hP3Z4MWAzI3ldBs"></iframe>
+		<iframe width="675" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=C%C3%94NG%20TY%20TNHH%20TH%C6%AF%C6%A0NG%20M%E1%BA%A0I%20V%C3%80%20D%E1%BB%8ACH%20V%E1%BB%A4%20DU%20L%E1%BB%8ACH%20SUNRISE&key=AIzaSyDgs91_EZvfzEq7ij99hP3Z4MWAzI3ldBs"></iframe>
 	 <table>
     <tr>
       <td>
