@@ -6,8 +6,8 @@
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 		<title>Du lịch Sunrise TST Travel </title>
-		<meta name="description" content="CÔNG TY DU LỊCH SUN RISE TST TRAVEL - Du lich trong nuoc, Du lich nuoc ngoai, Ve may bay, Thue xe du lich, Dat phong khach san">
-		<meta name="keywords" content="    du lịch giá rẻ,tour giá rẻ,tour du lịch,du lịch trong nước,du lịch nước ngoài,đặt phòng khách sạn,mua vé máy bay,tour tiết kiệm,cty du lịch uy tín">
+		<meta name="description" content="CÔNG TY DU LỊCH SUNRISE TST TRAVEL - Du lich trong nuoc, Du lich nuoc ngoai, Ve may bay, Thue xe du lich, Dat phong khach san">
+		<meta name="keywords" content="du lịch giá rẻ,tour giá rẻ,tour du lịch,du lịch trong nước,du lịch nước ngoài,đặt phòng khách sạn,mua vé máy bay,tour tiết kiệm,cty du lịch uy tín">
 
 		<link type="image/x-icon" href="/images/logo_f.ico" rel="shortcut icon">
 		<link href="<?php echo $template?>css/style.css" rel="stylesheet">
@@ -18,6 +18,15 @@
 		<link href="<?php echo $template?>css/menu.css" rel="stylesheet">
 		<link href="<?php echo $template?>css/css_tooltip.css" rel="stylesheet">
 		<link href="<?php echo $template?>css/default.css" media="screen" rel="stylesheet" type="text/css">
+		<meta property="og:title"content="CÔNG TY DU LỊCH SUNRISE TST TRAVEL" />
+		<meta property="og:site_name" content="SUNRISE TST TRAVEL"/>
+		<meta property="og:url" content="" />
+		<meta property="og:description" content="Du lịch giá rẻ,tour giá rẻ,tour du lịch,du lịch trong nước,du lịch nước ngoài,đặt phòng khách sạn,mua vé máy bay,tour tiết kiệm,cty du lịch uy tín" />
+		<meta property="og:locale" content="vi_VN" />
+		<meta property="article:author" content="https://www.facebook.com/tam.do.524" />
+		<meta property="article:publisher" content="https://www.facebook.com/pages/Sunrise-TST-Travel/1569215376630971" />
+		<meta property="og:image" content="http://www.sunrisetsttravel.com/images/logo_f.png" />
+
 		<?php echo $this->layouts->print_includes(); ?>
 	</head>
 <script>
