@@ -20,7 +20,16 @@
 		<link href="<?php echo $template?>css/default.css" media="screen" rel="stylesheet" type="text/css">
 		<?php echo $this->layouts->print_includes(); ?>
 	</head>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
+  ga('create', 'UA-58035342-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
 <body style="background:url(<?php echo $template?>images/body_bg.jpg) no-repeat fixed center top" gram_dict="true">
 	<div id="dhtmltooltip"></div>
 	<img id="dhtmlpointer" src="/images/tooltiparrow.gif">

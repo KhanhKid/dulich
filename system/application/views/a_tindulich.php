@@ -3,23 +3,23 @@
 			    <div id="left-news">
 	<div class="pathway-news">
       			<div itemscope=""><a href="/" itemprop="url" class="homepage"><span itemprop="title">Trang chủ</span></a></div>
-      			
+
      			<div itemscope=""  class="no-bg"><a href="/a/tindulich" itemprop="url" class="homepage"><span itemprop="title">TIN DU LỊCH</span></a></div>
-         
-      
+
+
 	</div>
-			
-	
-		<div class="sub-left">	
+
+
+		<div class="sub-left">
 		<ul class="list-items">
-			<?php 
+			<?php
 				foreach($list as $value){
 
             ?>
                 <li>
                     <p class="img">
                         <a href="/i/news/<?php echo $value->ID ?>">
-                            <img src="/img/imgnews/<?php echo $value->img ?>" width="180" alt="<?php echo $value->title ?>"></a>
+                            <img src="<?php echo $value->img ?>" width="180" alt="<?php echo $value->title ?>"></a>
                     </p>
                     <div class="info-items">
                         <p class="name">
@@ -28,36 +28,36 @@
                         <p class="date-timer">Cập nhật ngày: <?php echo $value->timestamp ?></p>
                         <p class="date-timer">
                         <?php
-                            $arr_content = explode('.', $value->content); 
+                            $arr_content = explode('.', $value->content);
                             echo $arr_content[0].$arr_content[1]."....";
                         ?></p>
                     <summary>
-                                        
+
                 </summary></div></li>
             <?php
-                   
-                    
+
+
 				}
 			?>
 		</ul>
-		
+
 	</div>
-	
+
 	</div>
 <div id="right-news">
-        
-            
-        
+
+
+
     <div class="group-photo">
-        
+
     </div>
-    
-    
+
+
     <div class="ads-news-r">
-        
+
     </div>
-    
-    
+
+
     <div class="box-online">
         <div id="fb-root"></div>
             <script>(function(d, s, id) {
@@ -68,9 +68,8 @@
               fjs.parentNode.insertBefore(js, fjs);
             }(document, 'script', 'facebook-jssdk'));</script>
         <div class="fb-page" data-href="https://www.facebook.com/pages/Sunrise-TST-Travel/1569215376630971?__mref=message_bubble" data-width="300" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/pages/Sunrise-TST-Travel/1569215376630971?__mref=message_bubble"><a href="https://www.facebook.com/pages/Sunrise-TST-Travel/1569215376630971?__mref=message_bubble">Sunrise TST Travel</a></blockquote></div></div>
-    </div>    
-</div>					
+    </div>
 </div>
-	
-		
-		
+</div>
+
+

@@ -28,7 +28,7 @@
                                             	</li><li>
                         	<input type="checkbox" class="opttuyen" name="optTuyen" value="29"> <!-- onchange="return Common.changeLink(this,'');"-->
                         	Xuyên Việt
-                                                
+
                     </li></ul>
                 </div>
             </div>
@@ -39,7 +39,7 @@
                 </p>
                 <div class="sub-supportOnline">
                                         <ul class="items">
-                                                            
+
                     <li class="hotline">&nbsp;Hotline: 0919 095 778 / 0916 065 778</li>
                     <li><div id="fb-root"></div>
                 <script>(function(d, s, id) {
@@ -49,26 +49,26 @@
                   js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=1018213634855656";
                   fjs.parentNode.insertBefore(js, fjs);
                 }(document, 'script', 'facebook-jssdk'));</script>
-                <div class="fb-like" data-href="https://www.facebook.com/pages/Sunrise-TST-Travel/1569215376630971?__mref=message_bubble" data-width="235" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>   
+                <div class="fb-like" data-href="https://www.facebook.com/pages/Sunrise-TST-Travel/1569215376630971?__mref=message_bubble" data-width="235" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
            </li>
                     </ul>
-                                        
-                    
+
+
                 </div>
-            </div>        	         	
-			
-			
-         	
+            </div>
+
+
+
 </div>
 <div id="right-tour-main">
-    
+
     <div id="mid-tour">
             <div class="content-sub">
                 <div class="title">
                     <p class="text">Tour trong nước</p>
                 </div>
                 <ul class="list-tour">
-                
+
                 <?php
 
                 foreach ($tour as $key => $value) {
@@ -77,7 +77,7 @@
                 <li>
                     <p class="img">
                     <a href="/i/tour/<?php echo $value->ID ?>">
-                    <img src="/img/imgtour/<?php echo $value->img?>" width="150" alt="<?php echo $value->name?>">
+                    <img src="<?php echo $value->img?>" width="150" alt="<?php echo $value->name?>">
 
                     </a>
 
@@ -86,7 +86,7 @@
                     <p class="name"><a href="/i/tour/<?php echo $value->ID ?>"><?php echo $value->name?></a></p>
                     <p class="price"><?php echo number_format($value->price, 0, ",",".")?> VNĐ</p>
                     <p class="line">
-                    <strong>Khởi hành:</strong> <?php echo $value->startdate?>                            </p>                           
+                    <strong>Khởi hành:</strong> <?php echo $value->startdate?>                            </p>
 
                     <p class="line">
                     <strong>Thời gian:</strong> <?php echo $value->timeday?> ngày <?php echo $value->timenight?> đêm                            </p>
@@ -97,28 +97,28 @@
                 <?php
                     }
                 ?>
-                
-                                        
-                                        
-                    
+
+
+
+
                 </ul>
-                
-                
+
+
             </div>
         </div>
-        
+
 
 
     <div id="right-tour">
-        
+
                         <div class="box-top-tour-right">
                     <p class="title">
                         <span>TOP Tour gần đây trong nước</span>
                      </p>
-                    
+
                     <div class="box-content">
                     <ul class="items1">
-                        <?php 
+                        <?php
                         foreach ($tour_suggest as $key => $value) {
                             # code...
                         ?>
@@ -129,17 +129,17 @@
                         <?php
                         }
                         ?>
-                        
+
                     </ul>
                             <p class="up_down" align="right">
                             <a href="/index/tourtrongnuoc" class="down">Xem thêm ⇓</a>
-                                            
+
                     </p>
                     </div>
                 </div>
                 <div class="ads-right">
-           
-        </div>                    
+
+        </div>
         </div>
 </div>
 </div>

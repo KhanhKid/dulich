@@ -24,7 +24,7 @@
 			</li>
 			</ul>
 		</div>
-	</div> 
+	</div>
 	<div class="clear"></div>
 	<div class="group-tour">
 	<div class="col1">
@@ -45,13 +45,13 @@
 				?>
 					<li>
 						<p class="img">
-							<?php 
+							<?php
 								if(trim($value->texthot) != ""){
 									echo '<span class="text_hot">'.$value->texthot.'</span> <span class="hot"></span>';
 								}
 							?>
 							<a href="/i/tour/<?php echo $value->ID ?>">
-								<img src="/img/imgtour/<?php echo $value->img?>" width="150" height="100" alt="<?php echo $value->name?>">
+								<img src="<?php echo $value->img?>" width="150" height="100" alt="<?php echo $value->name?>">
 							</a>
 						</p>
 						<div class="info-tour">
@@ -82,13 +82,13 @@
 				?>
 					<li>
 						<p class="img">
-							<?php 
+							<?php
 								if(trim($value->texthot) != ""){
 									echo '<span class="text_hot">'.$value->texthot.'</span> <span class="hot"></span>';
 								}
 							?>
 							<a href="/i/tour/<?php echo $value->ID ?>">
-								<img src="/img/imgtour/<?php echo $value->img?>" width="150" height="100" alt="<?php echo $value->name?>">
+								<img src="<?php echo $value->img?>" width="150" height="100" alt="<?php echo $value->name?>">
 							</a>
 						</p>
 						<div class="info-tour">
@@ -125,13 +125,13 @@
 				?>
 					<li>
 						<p class="img">
-							<?php 
+							<?php
 								if(trim($value->texthot) != ""){
 									echo '<span class="text_hot">'.$value->texthot.'</span> <span class="hot"></span>';
 								}
 							?>
 							<a href="/i/tour/<?php echo $value->ID ?>">
-								<img src="/img/imgtour/<?php echo $value->img?>" width="150" height="100" alt="<?php echo $value->name?>">
+								<img src="<?php echo $value->img?>" width="150" height="100" alt="<?php echo $value->name?>">
 							</a>
 						</p>
 						<div class="info-tour">
@@ -162,13 +162,13 @@
 				?>
 					<li>
 						<p class="img">
-							<?php 
+							<?php
 								if(trim($value->texthot) != ""){
 									echo '<span class="text_hot">'.$value->texthot.'</span> <span class="hot"></span>';
 								}
 							?>
 							<a href="/i/tour/<?php echo $value->ID ?>">
-								<img src="/img/imgtour/<?php echo $value->img?>" width="150" height="100" alt="<?php echo $value->name?>">
+								<img src="<?php echo $value->img?>" width="150" height="100" alt="<?php echo $value->name?>">
 							</a>
 						</p>
 						<div class="info-tour">
@@ -219,7 +219,7 @@
 					</p>
 					<p class="summary"></p>
 				</div>
-			</div> 
+			</div>
 				<ul class="relative-service">
 				<?php
 					$i = 0;
@@ -262,7 +262,7 @@
 		</p>
 		<p class="name"><a href="/i/news/<?php echo $news_f->ID ?>"><?php echo $news_f->title ?></a>
 		</p>
-	</div> 
+	</div>
 	<div class="relative-item0">
 		<ul class="items">
 			<?php
@@ -298,7 +298,7 @@
 				<a href="/i/dairy/<?php echo $dairy_f->ID ?>"><?php echo $dairy_f->title ?></a>
 			</p>
 		</div>
-	</div> 
+	</div>
 	<ul class="relative-news">
 		<?php
 			$i = 0;
@@ -334,5 +334,5 @@
 			}
 		  });
 	  });
-	
+
 	</script>

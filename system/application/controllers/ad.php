@@ -9,7 +9,14 @@ class Ad extends Controller {
         $this->load->database();
     }
     function index(){
-        $this->layouts->view('ad/index',array(),'admin');
+
+        $this->layouts->view('ad/index',array(
+            'c_tour' => $this->db->count_all_results('tour'),
+            ),'admin');
+    }
+    function logout(){
+        unset($_SERVER['PHP_AUTH_USER']);
+        $this->layouts->view('ad/logout',array(),'admin');
     }
 
     function alltour(){
@@ -22,13 +29,13 @@ class Ad extends Controller {
     function detailtour(){
 
         $id = $this->uri->segment(3);
-        if(!empty($_POST)) 
+        if(!empty($_POST))
         {
             $arr_insert = array();
             $arr_detail = array('tongquan','hanhtrinh','banggia','dieukien');
             $arr_insert_detail = array();
             // get all post data in one nice array
-            foreach ($_POST as $key => $value) 
+            foreach ($_POST as $key => $value)
             {
                 if(!in_array($key, $arr_detail)){
                     $arr_insert[$key] = $value;
@@ -37,14 +44,13 @@ class Ad extends Controller {
                 }
             }
             $this->db->where('ID', $id);
-            $this->db->update('tour', $arr_insert); 
-            $this->db->update('tour_detail', $arr_insert_detail); 
+            $this->db->update('tour', $arr_insert);
+            $this->db->update('tour_detail', $arr_insert_detail);
 
         }
-        
+
         $data = $this->db->query('SELECT * FROM `tour` WHERE `ID`='.$id);
         $data_detail = $this->db->query('SELECT * FROM `tour_detail` WHERE `ID`='.$id);
-        $data_detail = $this->db->query('SELECT * FROM `locationid` WHERE `ID`='.$id);
         //echo '<pre>',var_dump($data->result()),'</pre>';die();
         $this->layouts->view('ad/detailtour',array(
             'data' => $data->result()[0],
@@ -54,13 +60,13 @@ class Ad extends Controller {
         //var_dump($_POST);
     }
     function addtour(){
-        if(!empty($_POST)) 
+        if(!empty($_POST))
         {
             $arr_insert = array();
             $arr_detail = array('tongquan','hanhtrinh','banggia','dieukien');
             $arr_insert_detail = array();
             // get all post data in one nice array
-            foreach ($_POST as $key => $value) 
+            foreach ($_POST as $key => $value)
             {
                 if(!in_array($key, $arr_detail)){
                     $arr_insert[$key] = $value;
@@ -73,13 +79,20 @@ class Ad extends Controller {
             $id = $this->db->insert_id();
             $this->db->trans_complete();
             $arr_insert_detail['ID'] = $id;
-            $this->db->insert('tour_detail', $arr_insert_detail); 
+            $this->db->insert('tour_detail', $arr_insert_detail);
 
         }
         $this->layouts->view('ad/addtour',array(),'admin');
     }
     function alltintuc(){
 
+    }
+    function remove(){
+        $id = $this->uri->segment(3);
+        if($id){
+            $this->db->delete('tour', array('ID' => $id));
+        }
+        $this->layouts->view('ad/remove',array(),'admin');
     }
 }
 

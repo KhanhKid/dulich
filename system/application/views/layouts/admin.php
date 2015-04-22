@@ -1,4 +1,13 @@
-﻿<!DOCTYPE html>
+﻿<?php
+if (!isset($_SERVER['PHP_AUTH_USER']) || $_SERVER['PHP_AUTH_USER'] !== 'khanhkidtest') {
+    header('WWW-Authenticate: Basic realm="Sunrise - Admin Panel"');
+    header('HTTP/1.0 401 Unauthorized');
+    echo '<html><head><meta http-equiv="refresh" content="0; url=/"></head></html>';
+    exit;
+} else {
+    $_SERVER['PHP_AUTH_USER'] = "sunrise";
+?>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -7,9 +16,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
+    <link type="image/x-icon" href="/images/logo_f.ico" rel="shortcut icon">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+    <title>Admin page</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="/template/bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -265,7 +275,7 @@
                         <li><a href="#"><i class="fa fa-gear fa-fw"></i> Settings</a>
                         </li>
                         <li class="divider"></li>
-                        <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
+                        <li><a href="/ad/logout"><i class="fa fa-sign-out fa-fw"></i> Logout</a>
                         </li>
                     </ul>
                     <!-- /.dropdown-user -->
@@ -311,3 +321,6 @@
 </body>
 
 </html>
+<?php
+}
+?>
