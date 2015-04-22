@@ -209,7 +209,7 @@
 			<div class="item0">
 				<p class="img">
 					<a href="/i/visa/<?php echo $visa_f->ID ?>">
-						<img src="/img/imgvisa/<?php echo $visa_f->img ?>" width="150" alt="<?php echo $visa_f->title ?>">
+						<img src="<?php echo $visa_f->img ?>" width="150" alt="<?php echo $visa_f->title ?>">
 					</a>
 				</p>
 				<div class="info-service">
@@ -272,7 +272,7 @@
 						if($i != 0){
 				?>
 					<li>
-						<a href="/i/news/<?php echo $value->ID ?>"><?php echo $value->title ?></a>
+						<a href="<?php echo $value->ID ?>"><?php echo $value->title ?></a>
 					</li>
 				<?php
 						}
@@ -290,7 +290,7 @@
 	<div class="item0">
 		<p class="img">
 			<a href="/i/dairy/<?php echo $dairy_f->ID ?>">
-				<img src="/img/imgdairy/<?php echo $dairy_f->img ?>" width="115" alt="<?php echo $dairy_f->title ?>">
+				<img src="<?php echo $dairy_f->img ?>" width="115" alt="<?php echo $dairy_f->title ?>">
 			</a>
 		</p>
 		<div class="info-news">
