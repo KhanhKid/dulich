@@ -46,6 +46,7 @@
 
                                 <?php foreach ($data as $key => $value) {
                                     # code...
+                                    $i = 0;
                                     $type_name = "";
                                     switch ($value->type) {
                                         case '1':
@@ -65,9 +66,8 @@
                                             # code...
                                             break;
                                     }
-
                                     echo '<tr class="odd gradeX">
-                                    <td>'.$value->ID.'</td>
+                                    <td>'.$i.'</td>
                                     <td><span style="display:none">'.$value->ID.'</span>SRTST-'.$value->ID.'</td>
                                     <td><a href="/ad/detailtour/'.$value->ID.'">'.$value->name.'</a></td>
                                     <td>'. number_format($value->price, 0, ",",".").'</td>
@@ -78,6 +78,7 @@
                                         | <a =href="/ad/detailtour/'.$value->ID.'"<span class="delete glyphicon glyphicon-pencil" aria-hidden="true"></span>
                                         </td>
                                     </tr>';
+                                    $i++;
                                 }?>
 
                             </tbody>
