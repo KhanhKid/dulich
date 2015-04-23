@@ -28,8 +28,8 @@
                           <option value="0"></option>
                         </select>
                 </p>
-                <input type = "submit" value="submit">
-                <p>Image: <img src="/img/imgtour/<?php echo $data->img ?>">
+
+                <p>Image: <input name="img" type="text" value="" style="width:100%" /> <img src="/img/imgtour/<?php echo $data->img ?>">
                 </p>
 
                 <p>
@@ -56,6 +56,7 @@
                         <?php echo $data_detail->dieukien ?>
                     </textarea>
                 </p>
+                <button type="submit" class="btn btn-success">Lưu tour</button>
             </form>
         <!-- /.col-lg-12 -->
     </div>

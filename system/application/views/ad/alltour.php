@@ -44,9 +44,11 @@
                             </thead>
                             <tbody>
 
-                                <?php foreach ($data as $key => $value) {
+                                <?php
+                                $i = 1;
+                                foreach ($data as $key => $value) {
                                     # code...
-                                    $i = 0;
+
                                     $type_name = "";
                                     switch ($value->type) {
                                         case '1':
@@ -75,7 +77,7 @@
                                     <td>'.$type_name.'</td>
                                     <td>'.$value->timestamp.'</td>
                                     <td><span  data="'.$value->ID.'" dataname="'.$value->name.'" class="delete glyphicon glyphicon-remove" aria-hidden="true"></span>
-                                        | <a =href="/ad/detailtour/'.$value->ID.'"<span class="delete glyphicon glyphicon-pencil" aria-hidden="true"></span>
+                                        | <a href="/ad/detailtour/'.$value->ID.'"<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
                                         </td>
                                     </tr>';
                                     $i++;
@@ -85,9 +87,6 @@
                         </table>
                     </div>
                     <!-- /.table-responsive -->
-                    <div class="well">
-                        <a class="btn btn-default btn-lg btn-block" target="_blank" href="https://datatables.net/">View DataTables Documentation</a>
-                    </div>
                 </div>
                 <!-- /.panel-body -->
             </div>
