@@ -25,6 +25,7 @@ class I extends Controller {
 		$this->layouts->view('detail/i_hotel',array());
 	}
 	function search(){
+		
 		$this->layouts->view('detail/i_search',array());
 	}
 	

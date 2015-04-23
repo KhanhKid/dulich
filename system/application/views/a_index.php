@@ -188,151 +188,150 @@
             </ul>
         </div>
     </div>
-
-    </div>
-    <div class="group-ads-other">
-    <div class="box-ads">
-        <div id="video">
-        <iframe width="280" height="230" src="https://www.youtube.com/embed/09R8_2nJtjg" frameborder="0" allowfullscreen></iframe>
-        </div>
-    </div>
-    <div class="group-service">
-        <div class="group-rent">
-            <div class="bg-title">
-                <p class="text">
-                    <a href="/a/thutucvisa">THỦ TỤC VISA</a>
-                </p>
-                <p class="more">
-                    <a href="/a/thutucvisa" target="_self">Xem thêm</a>
-                </p>
-            </div>
-            <div class="item0">
-                <p class="img">
-                    <a href="/i/visa/<?php echo $visa_f->ID ?>">
-                        <img src="<?php echo $visa_f->img ?>" width="150" alt="<?php echo $visa_f->title ?>">
-                    </a>
-                </p>
-                <div class="info-service">
-                    <p class="name">
-                        <a href="/i/visa/<?php echo $visa_f->ID ?>"> <?php echo $visa_f->title ?>
-                        </a>
-                    </p>
-                    <p class="summary"></p>
-                </div>
-            </div>
-                <ul class="relative-service">
-                <?php
-                    $i = 0;
-                    foreach ($visa_all as $value) {
-                        # code...
-                        if($i != 0){
-                ?>
-                            <li><a href="/i/visa/<?php echo $value->ID ?>"><?php echo $value->title ?></a></li>
-                <?php
-                        }
-                        $i++;
-                    }
-                ?>
-                </ul>
-            </div>
-    </div>
-    <div class="box-video-supprt">
-        <div class="support">
-            <div id="fb-root"></div>
-            <script>(function(d, s, id) {
-              var js, fjs = d.getElementsByTagName(s)[0];
-              if (d.getElementById(id)) return;
-              js = d.createElement(s); js.id = id;
-              js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=1018213634855656";
-              fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));</script>
-            <div class="fb-page" data-href="https://www.facebook.com/pages/Sunrise-TST-Travel/1569215376630971?__mref=message_bubble" data-width="300" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/pages/Sunrise-TST-Travel/1569215376630971?__mref=message_bubble"><a href="https://www.facebook.com/pages/Sunrise-TST-Travel/1569215376630971?__mref=message_bubble">Sunrise TST Travel</a></blockquote></div></div>
-        </div>
-    </div>
-    </div>
-    <div class="box-news-index">
-    <div class="box-slide">
-    <div class="title-main">
-        <p class="text"><a href="/a/tindulich">TIN DU LỊCH</a></p>
-        <p class="more"><a href="/a/tindulich">Xem thêm</a></p>
-    </div>
-    <div class="item0">
-        <p class="img">
-            <a href="/i/news/<?php echo $news_f->ID ?>"><img src="/img/imgnews/<?php echo $news_f->img ?>" width="296" alt="<?php echo $news_f->title ?>"></a>
-        </p>
-        <p class="name"><a href="/i/news/<?php echo $news_f->ID ?>"><?php echo $news_f->title ?></a>
-        </p>
-    </div>
-    <div class="relative-item0">
-        <ul class="items">
-            <?php
-                    $i = 0;
-                    foreach ($news_all as $value) {
-                        # code...
-                        if($i != 0){
-                ?>
-                    <li>
-                        <a href="/i/news/<?php echo $value->ID ?>"><?php echo $value->title ?></a>
-                    </li>
-                <?php
-                        }
-                        $i++;
-                    }
-                ?>
-        </ul>
-    </div>
-    </div>
-    <div class="box-relative-news">
-    <div class="title-main">
-        <p class="text"><a href="/a/nhatky">Nhật ký Du lịch Hoà Bình</a></p>
-        <p class="more"><a href="/a/nhatky">Xem thêm</a></p>
-    </div>
-    <div class="item0">
-        <p class="img">
-            <a href="/i/dairy/<?php echo $dairy_f->ID ?>">
-                <img src="/img/imgdairy/<?php echo $dairy_f->img ?>" width="115" alt="<?php echo $dairy_f->title ?>">
-            </a>
-        </p>
-        <div class="info-news">
-            <p class="name">
-                <a href="/i/dairy/<?php echo $dairy_f->ID ?>"><?php echo $dairy_f->title ?></a>
-            </p>
-        </div>
-    </div>
-    <ul class="relative-news">
-        <?php
-            $i = 0;
-            foreach ($dairy_all as $value) {
-                # code...
-                if($i != 0){
-        ?>
-                    <li>
-                        <a href="/i/dairy/<?php echo $value->ID ?>"><?php echo $value->title ?></a>
-                    </li>
-        <?php
-                }
-                $i++;
-            }
-        ?>
-    </ul>
-    </div>
-    </div>
-    </div>
-    <script>
-    $(function() {
-        $("#slider4").responsiveSlides({
-            auto: true,
-            pager: true,
-            nav: true,
-            speed: 500,
-            namespace: "callbacks",
-            before: function () {
-              $('.events').append("<li>before event fired.</li>");
-            },
-            after: function () {
-              $('.events').append("<li>after event fired.</li>");
-            }
-          });
-      });
+	</div>
+	<div class="group-ads-other">
+	<div class="box-ads">
+		<div id="video">
+		<iframe width="280" height="230" src="https://www.youtube.com/embed/09R8_2nJtjg" frameborder="0" allowfullscreen></iframe>
+		</div>
+	</div>
+	<div class="group-service">
+		<div class="group-rent">
+			<div class="bg-title">
+				<p class="text">
+					<a href="/a/thutucvisa">THỦ TỤC VISA</a>
+				</p>
+				<p class="more">
+					<a href="/a/thutucvisa" target="_self">Xem thêm</a>
+				</p>
+			</div>
+			<div class="item0">
+				<p class="img">
+					<a href="/i/visa/<?php echo $visa_f->ID ?>">
+						<img src="<?php echo $visa_f->img ?>" width="150" alt="<?php echo $visa_f->title ?>">
+					</a>
+				</p>
+				<div class="info-service">
+					<p class="name">
+						<a href="/i/visa/<?php echo $visa_f->ID ?>"> <?php echo $visa_f->title ?>
+						</a>
+					</p>
+					<p class="summary"></p>
+				</div>
+			</div>
+				<ul class="relative-service">
+				<?php
+					$i = 0;
+					foreach ($visa_all as $value) {
+						# code...
+						if($i != 0){
+				?>
+							<li><a href="/i/visa/<?php echo $value->ID ?>"><?php echo $value->title ?></a></li>
+				<?php
+						}
+						$i++;
+					}
+				?>
+				</ul>
+			</div>
+	</div>
+	<div class="box-video-supprt">
+		<div class="support">
+			<div id="fb-root"></div>
+			<script>(function(d, s, id) {
+			  var js, fjs = d.getElementsByTagName(s)[0];
+			  if (d.getElementById(id)) return;
+			  js = d.createElement(s); js.id = id;
+			  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3&appId=1018213634855656";
+			  fjs.parentNode.insertBefore(js, fjs);
+			}(document, 'script', 'facebook-jssdk'));</script>
+			<div class="fb-page" data-href="https://www.facebook.com/pages/Sunrise-TST-Travel/1569215376630971?__mref=message_bubble" data-width="300" data-hide-cover="false" data-show-facepile="true" data-show-posts="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/pages/Sunrise-TST-Travel/1569215376630971?__mref=message_bubble"><a href="https://www.facebook.com/pages/Sunrise-TST-Travel/1569215376630971?__mref=message_bubble">Sunrise TST Travel</a></blockquote></div></div>
+		</div>
+	</div>
+	</div>
+	<div class="box-news-index">
+	<div class="box-slide">
+	<div class="title-main">
+		<p class="text"><a href="/a/tindulich">TIN DU LỊCH</a></p>
+		<p class="more"><a href="/a/tindulich">Xem thêm</a></p>
+	</div>
+	<div class="item0">
+		<p class="img">
+			<a href="/i/news/<?php echo $news_f->ID ?>"><img src="/img/imgnews/<?php echo $news_f->img ?>" width="296" alt="<?php echo $news_f->title ?>"></a>
+		</p>
+		<p class="name"><a href="/i/news/<?php echo $news_f->ID ?>"><?php echo $news_f->title ?></a>
+		</p>
+	</div>
+	<div class="relative-item0">
+		<ul class="items">
+			<?php
+					$i = 0;
+					foreach ($news_all as $value) {
+						# code...
+						if($i != 0){
+				?>
+					<li>
+						<a href="<?php echo $value->ID ?>"><?php echo $value->title ?></a>
+					</li>
+				<?php
+						}
+						$i++;
+					}
+				?>
+		</ul>
+	</div>
+	</div>
+	<div class="box-relative-news">
+	<div class="title-main">
+		<p class="text"><a href="/a/nhatky">Nhật ký Du lịch Hoà Bình</a></p>
+		<p class="more"><a href="/a/nhatky">Xem thêm</a></p>
+	</div>
+	<div class="item0">
+		<p class="img">
+			<a href="/i/dairy/<?php echo $dairy_f->ID ?>">
+				<img src="<?php echo $dairy_f->img ?>" width="115" alt="<?php echo $dairy_f->title ?>">
+			</a>
+		</p>
+		<div class="info-news">
+			<p class="name">
+				<a href="/i/dairy/<?php echo $dairy_f->ID ?>"><?php echo $dairy_f->title ?></a>
+			</p>
+		</div>
+	</div>
+	<ul class="relative-news">
+		<?php
+			$i = 0;
+			foreach ($dairy_all as $value) {
+				# code...
+				if($i != 0){
+		?>
+					<li>
+						<a href="/i/dairy/<?php echo $value->ID ?>"><?php echo $value->title ?></a>
+					</li>
+		<?php
+				}
+				$i++;
+			}
+		?>
+	</ul>
+	</div>
+	</div>
+	</div>
+	<script>
+	$(function() {
+		$("#slider4").responsiveSlides({
+			auto: true,
+			pager: true,
+			nav: true,
+			speed: 500,
+			namespace: "callbacks",
+			before: function () {
+			  $('.events').append("<li>before event fired.</li>");
+			},
+			after: function () {
+			  $('.events').append("<li>after event fired.</li>");
+			}
+		  });
+	  });
 
     </script>

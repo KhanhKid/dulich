@@ -112,9 +112,14 @@ class A extends Controller {
 		$this->layouts->view('a_tindulich',array('list'=>$list->result()));
 	}	
 	function nhatky(){
-
 		$list = $this->db->query('SELECT * FROM `dairy` order by ID Desc' );
 		$this->layouts->view('a_nhatky',array('list'=>$list->result()));
+	}
+	
+	function order(){
+		$id = $this->uri->segment(3);
+		$data_detail = $this->db->query('SELECT * FROM `tour_detail` WHERE `ID` = '.$id);
+		$this->layouts->view('a_order',array('detail'=>$data_detail->result()));
 	}
 }
 
