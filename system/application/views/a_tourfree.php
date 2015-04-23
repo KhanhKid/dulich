@@ -57,7 +57,7 @@
                     </p>
                     <div class="info-tour">
                     <p class="name"><a href="/i/tour/<?php echo $value->ID ?>"><?php echo $value->name?></a></p>
-                    <p class="price"><?php echo $value->price?> VNĐ</p>
+                    <p class="price"><?php echo number_format($value->price, 0, ",",".")?> VNĐ</p>
                     <p class="line">
                     <strong>Khởi hành:</strong> <?php echo $value->startdate?>                            </p>
 
