@@ -8,7 +8,7 @@ body {
 	padding: 0;
 	font-family: Helvetica;
 	font-size: 12px;
-	
+
 }
 
 h1,h2,h3,h4,h5,h6 {
@@ -29,7 +29,7 @@ a img{
 ul {
 	margin: 0;
 	padding: 0;
-	
+
 }
 
 p,form {
@@ -42,7 +42,7 @@ p,form {
 p.up-down{
 	clear: both;
 	overflow: hidden;
-	
+
 	margin: auto;
 	width: 100%;
 	margin-bottom: 3px;
@@ -77,7 +77,7 @@ p.up-down a.down{
 p.up_down{
 	clear: both;
 	overflow: hidden;
-	
+
 	margin: auto;
 	width: 100%;
 	margin-bottom: 3px;
@@ -114,7 +114,7 @@ p.up_down a.down{
 p.up_down_free{
 	clear: both;
 	overflow: hidden;
-	
+
 	margin: auto;
 	width: 100%;
 	margin-bottom: 3px;
@@ -171,7 +171,7 @@ p.up_down_free a.down{
 }
 
 /*******
-* Style Pagination 
+* Style Pagination
 */
 .pages {
 	text-align: center;
@@ -286,7 +286,7 @@ tr {
 #main-container{
 	clear: both;
 	width: 100%;
-	position: relative;  
+	position: relative;
     background: url(../images/bg-header.png) repeat-x left top;
 }
 
@@ -297,8 +297,8 @@ tr {
 	height: 177px;
     display: inline-table;
 	padding-bottom: 2px;
-    
-}                         
+
+}
 
 #header div.sub-header {
 	clear: both;
@@ -318,12 +318,12 @@ tr {
 #header div.sub-header div.box-search-menu-top {
 	float: right;
 	width: 390px;
-	
+
 }
 
 .box-search-menu-top div.menu-top {
 	clear: both;
-	
+
 }
 
 .box-search-menu-top div.menu-top ul.menu-item {
@@ -331,7 +331,7 @@ tr {
 	padding-top: 10px;
 	float: left;
 	width: 295px;
-	
+
 	list-style: none;
 	text-align: right;
 }
@@ -353,7 +353,7 @@ tr {
     left: 5px;
     width: 180px;
     background: #f2f2f2;
-    visibility: hidden;   
+    visibility: hidden;
 }
 .box-search-menu-top div.menu-top ul.menu-item li ul li{
     overflow: hidden;
@@ -436,7 +436,7 @@ div.bg-search-header input[type="text"] {
 * Table Admin row
 */
 /**
-*Table 
+*Table
 */
 table.admindata {
 	border-collapse: collapse;
@@ -563,7 +563,7 @@ table.data td {
 	float: left;
 	margin-left: 0px;
 	background: url(../images/line-horizontal.png) no-repeat right;
-    
+
 }
 
 #header div.sub-header div.nav ul li.no-bg {
@@ -590,7 +590,7 @@ table.data td {
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-khtml-border-radius: 5px;
-    
+
 }
 
 #header div.sub-header div.nav ul li a {
@@ -655,14 +655,14 @@ table.data td {
 }
 #content-wapper-main{
     width: 1000px;
-    margin: 0 auto;   
+    margin: 0 auto;
 
 }
 #content-wapper {
 	clear: both;
 	width: 990px;
 	margin: auto;
-	background: #fff;     
+	background: #fff;
 	border: 5px solid #FFFCFC;
 	border-top: none;
 	box-shadow: 0 0 3px #E1DABD;
@@ -1233,7 +1233,7 @@ div.listItems ul.sub-item li div.info-tour p.price {
 	border-bottom: dotted 1px #eee;
 	padding: 0px 10px;
     padding-bottom: 10px;
-	
+
 	margin: auto;
 }
 
@@ -1804,7 +1804,7 @@ div.sub-diem-den ul.items li a:hover {
 	font-weight: bold;
 	padding-bottom: 5px;
 	text-transform: uppercase;
-	
+
 }
 
 #mid-tour div.content-sub ul.list-tour li div.info-tour p.name a {
@@ -2145,7 +2145,7 @@ div.sub-diem-den ul.items li a:hover {
 .box-relative-tour ul.items li {
 	list-style: none;
 	padding: 2px 0px 13px;
-    
+
 	border-bottom: dotted 1px #eee;
 	float: left;
 	width: 360px;
@@ -3054,7 +3054,7 @@ div.box-hot-news div.box-relative-hot ul.items li div.info-news-hot p.name a:hov
 	padding: 10px 0px;
 	width: 96%;
 	margin: auto;
-} 
+}
 ul.form-booking {
 	clear: both;
 	overflow: hidden;
@@ -3352,7 +3352,7 @@ ul.form-booking li input[type="button"].submit-button {
 }
 .group-photo div.title {
 	clear: both;
-	
+
 }
 
 div.adv-news {
@@ -3433,14 +3433,14 @@ div.adv-news {
 	-moz-box-shadow: 0 0 3px #e1dabd;
 	-webkit-box-shadow: 0 0 3px #E1DABD;
 	-khtml-box-shadow: 0 0 3px #e1dabd;
-	
-	
+
+
 }
 
 #footer div.sub-footer {
 	clear: both;
 	margin: auto;
-	
+
 	padding: 10px 0px;
 	height: 90px;
 }
@@ -3502,7 +3502,7 @@ div.menu-footer ul.items li ul{
 	font-size: 12px;
 	color: #333;
 	text-align: center;
-	
+
 }
 
 ul.items-address {
@@ -3669,7 +3669,7 @@ ul.newsticker span {
 .support-onnline{
 	clear: both;
 	background: #eee;
-	
+
 }
 
 .support-onnline p.title{
@@ -3750,7 +3750,7 @@ ul.newsticker span {
 	border: solid 1px #ccc;
 }
 .brand{
-    
+
     clear: both;
     display: block;
     margin-top: 10px;
@@ -3788,7 +3788,7 @@ ul.newsticker span {
 }
 .sub-left ul.list-items li p.img a{
     height: 140px;
-    width: 180px; 
+    width: 180px;
     overflow: hidden;
     display: block;
 }

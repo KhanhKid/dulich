@@ -4,7 +4,7 @@ class I extends Controller {
 
 	function I()
 	{
-		parent::Controller();	
+		parent::Controller();
 		$this->load->library('Layouts');
 		$this->load->database();
 	}
@@ -21,16 +21,26 @@ class I extends Controller {
 			'data_detail' => $data_detail->result()[0],
 			));
 	}
+
 	function hotel(){
 		$this->layouts->view('detail/i_hotel',array());
 	}
+
 	function search(){
-		
-		$this->layouts->view('detail/i_search',array());
+		$result = array();
+		if(!empty($_POST)){
+        	$key = $_POST['key'];
+        	$data = $this->db->query("SELECT * FROM `tour` WHERE `name` LIKE '%".$key."%'");
+        	$result = $data->result();
+        }
+        $this->layouts->view('detail/i_search',array(
+        		'data' => $result,
+        		'key' => $_POST['key'],
+        	));
 	}
-	
-	
-	
+
+
+
 	//-- Linh Tinh --
 	function otherservice(){
 
@@ -56,7 +66,7 @@ class I extends Controller {
 		$this->layouts->view('detail/i_visa',array(
 			'data' => $data->result()[0]
 		));
-	}	
+	}
 	function place(){
 		$id = $this->uri->segment(3);
 		$data = $this->db->query('SELECT * FROM `place` WHERE `ID` = '.$id);

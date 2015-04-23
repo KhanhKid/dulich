@@ -78,13 +78,12 @@
                                 </div>
                                 <div class="box-search">
                                     <div class="holine"></div>
-                                <form name="frmSearch" action="/i/search/" method="post">
-                                <div class="bg-search-header">
-                                    <input type="text" class="search" value="" placeholder="Bạn cầm tìm gì?" id="q" name="q" style="color: rgb(255, 255, 255);">
-                                    <input type="submit" value="">
-                                </div>
-
-                                </form>
+                                    <form name="frmSearch" action="/index.php/i/search" method="post">
+                                        <div class="bg-search-header">
+                                            <input type="text" class="search" value="" placeholder="Bạn cầm tìm gì?" id="q" name="key" style="color: rgb(255, 255, 255);">
+                                            <input type="submit" value="">
+                                        </div>
+                                    </form>
 
                                 </div>
                             </div>
