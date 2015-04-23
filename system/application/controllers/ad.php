@@ -91,6 +91,7 @@ class Ad extends Controller {
         $id = $this->uri->segment(3);
         if($id){
             $this->db->delete('tour', array('ID' => $id));
+            $this->db->delete('tour_detail', array('ID' => $id));
         }
         $this->layouts->view('ad/remove',array(),'admin');
     }
