@@ -63,7 +63,7 @@
                             </a>
                             </p>
                         </td>
-                        <td><center><img style="margin-left: 95px;" src="<?php echo $template?>images/banner.png"></center></td>
+                        <td><center><img style="margin-left: 25px;" src="<?php echo $template?>images/banner.png"></center></td>
                         <td>
                             <div class="box-search-menu-top">
                                 <div class="menu-top">
