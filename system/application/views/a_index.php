@@ -4,23 +4,47 @@
           <ul class="rslides" id="slider4">
             <li>
               <img src="/img/imgbanner/1.jpg" alt="">
-              <p class="caption">This is a caption</p>
+              <p class="caption"></p>
             </li>
             <li>
               <img src="/img/imgbanner/2.jpg" alt="">
-              <p class="caption">This is a caption</p>
+              <p class="caption"></p>
             </li>
             <li>
               <img src="/img/imgbanner/3.jpg" alt="">
-              <p class="caption">This is a caption</p>
+              <p class="caption"></p>
             </li>
             <li>
               <img src="/img/imgbanner/4.jpg" alt="">
-              <p class="caption">This is a caption</p>
+              <p class="caption"></p>
             </li>
             <li>
               <img src="/img/imgbanner/5.jpg" alt="">
-              <p class="caption">This is a caption</p>
+              <p class="caption"></p>
+            </li>
+            <li>
+              <img src="/img/imgbanner/6.jpg" alt="">
+              <p class="caption"></p>
+            </li>
+            <li>
+              <img src="/img/imgbanner/7.jpg" alt="">
+              <p class="caption"></p>
+            </li>
+            <li>
+              <img src="/img/imgbanner/8.jpg" alt="">
+              <p class="caption"></p>
+            </li>
+            <li>
+              <img src="/img/imgbanner/9.jpg" alt="">
+              <p class="caption"></p>
+            </li>
+            <li>
+              <img src="/img/imgbanner/10.jpg" alt="">
+              <p class="caption"></p>
+            </li>
+			<li>
+              <img src="/img/imgbanner/5.jpg" alt="">
+              <p class="caption"></p>
             </li>
             </ul>
         </div>
@@ -283,7 +307,7 @@
 	</div>
 	<div class="box-relative-news">
 	<div class="title-main">
-		<p class="text"><a href="/a/nhatky">Nhật ký Du lịch Hoà Bình</a></p>
+		<p class="text"><a href="/a/nhatky">Nhật ký Du lịch</a></p>
 		<p class="more"><a href="/a/nhatky">Xem thêm</a></p>
 	</div>
 	<div class="item0">

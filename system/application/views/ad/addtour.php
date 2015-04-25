@@ -23,7 +23,14 @@
                           <option value="3" >Khuyến Mãi</option>
                           <option value="4" >Tour Free</option>
                         </select>
-                </p>
+                </p>                
+				<!--<p>Khu Vực : <select name="locationid" class="form-control">
+						<option value="0" >Không</option>
+						<?php foreach($location as $value){
+                          echo '<option value="'.$value->ID.'" >Trong nước</option>';
+                        } ?>
+						</select>
+                </p>-->
                 <p>Image: <input name="img" type="text" value="" style="width:100%" />
 
 
