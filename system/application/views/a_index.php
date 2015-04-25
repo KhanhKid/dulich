@@ -281,7 +281,7 @@
 	</div>
 	<div class="item0">
 		<p class="img">
-			<a href="/i/news/<?php echo $news_f->ID ?>"><img src="/img/imgnews/<?php echo $news_f->img ?>" width="296" alt="<?php echo $news_f->title ?>"></a>
+			<a href="/i/news/<?php echo $news_f->ID ?>"><img src="<?php echo $news_f->img ?>" width="296" alt="<?php echo $news_f->title ?>"></a>
 		</p>
 		<p class="name"><a href="/i/news/<?php echo $news_f->ID ?>"><?php echo $news_f->title ?></a>
 		</p>
