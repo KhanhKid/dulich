@@ -1,24 +1,6 @@
 <div id="content-wapper-main">
 		    <div id="content-wapper">
 			    <!-- banner -->
-<div class="wrapper_slider">
-         <div class="callbacks_container">
-          <ul class="rslides" id="slider4">
-            <li>
-              <img src="http://www.peacetour.com.vn/data/ads/471/1419648781.jpg" alt="">
-              <p class="caption">This is a caption</p>
-            </li>
-            <li>
-              <img src="http://www.peacetour.com.vn/data/ads/471/1410946755.jpg" alt="">
-              <p class="caption">This is another caption</p>
-            </li>
-            <li>
-              <img src="http://www.peacetour.com.vn/data/ads/471/1419648781.jpg" alt="">
-              <p class="caption">The third caption</p>
-            </li>
-          </ul>
-        </div>
-    </div>
 <div class="brand">
     <ul>
         <li><a class="home" href="/">Trang chủ</a></li>
