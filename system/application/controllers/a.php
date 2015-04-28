@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 class A extends Controller {
 
@@ -40,7 +40,7 @@ class A extends Controller {
     function tourfree(){
         $data = array();
         $tour = $this->db->query('SELECT * FROM `tour` WHERE `type` = 4 order by ID DESC');
-        $tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 4 limit 3 order by ID DESC');
+        $tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 4  order by ID DESC limit 3');
         
         $this->layouts->view('a_tourfree',array(
             'tour' => $tour->result(),
@@ -50,7 +50,7 @@ class A extends Controller {
     function tourkhuyenmai(){
         $data = array();
         $tour = $this->db->query('SELECT * FROM `tour` WHERE `type` = 3 order by ID DESC');
-        $tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 3 limit 3 order by ID DESC');
+        $tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 3  order by ID DESC limit 3');
         
         $this->layouts->view('a_tourkhuyenmai',array(
             'tour' => $tour->result(),
@@ -60,7 +60,7 @@ class A extends Controller {
     function tourngoainuoc(){
         $data = array();
         $tour = $this->db->query('SELECT * FROM `tour` WHERE `type` = 2 order by ID DESC');
-        $tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 2 limit 3 order by ID DESC');
+        $tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 2  order by ID DESC limit 3');
         
         $this->layouts->view('a_tourngoainuoc',array(
             'tour' => $tour->result(),
@@ -71,7 +71,7 @@ class A extends Controller {
         $data = array();
         
         $tour = $this->db->query('SELECT * FROM `tour` WHERE `type` = 1 order by ID DESC');
-        $tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 1 limit 3 order by ID DESC');
+        $tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 1 order by ID DESC limit 3');
         
         $this->layouts->view('a_tourtrongnuoc',array(
             'tour' => $tour->result(),
@@ -117,7 +117,44 @@ class A extends Controller {
     function order(){
         $id = $this->uri->segment(3);
         $data_detail = $this->db->query('SELECT * FROM `tour_detail` WHERE `ID` = '.$id);
-        $this->layouts->view('a_order',array('detail'=>$data_detail->result()));
+		$notice="";
+		if(!empty($_POST))
+        {
+			// create curl resource 
+			$ch = curl_init(); 
+
+			// set url 
+			curl_setopt($ch, CURLOPT_URL, "https://www.google.com/recaptcha/api/siteverify?secret=6LcEAgYTAAAAAD3tfhg-Nz7O6s8pWgN2n7-2OwYF&response=".$_POST['g-recaptcha-response']); 
+
+			//return the transfer as a string 
+			curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1); 
+
+			// $output contains the output string 
+			$output = curl_exec($ch); 
+
+			// close curl resource to free up system resources 
+			curl_close($ch);      
+			if($output == 'true'){
+				$arr_insert = array();
+				$arr_detail = array('g-recaptcha-response');
+				$arr_insert_detail = array();
+				// get all post data in one nice array
+				foreach ($_POST as $key => $value)
+				{
+					if(!in_array($key, $arr_detail)){
+						$arr_insert[$key] = $value;
+					}
+					$this->db->insert('order', $arr_insert);
+				}
+				$notice = "Bạn đã đăng ký thành công, Sunrise sẽ liên hệ với bạn sớm nhất.";
+			}else{
+				$notice = "Bạn đăng ký thất bại do nhập sai mã bảo vệ. Bạn có thể liên hệ trực tiếp Hotline: 0919 095 778 (Mr.Tâm) / 0916 065 778 (Mss.Trang)";
+			}
+        }
+		$this->layouts->view('a_order',array(
+										'detail'=>$data_detail->result()[0],
+										'notice'=>$notice
+										));
     }
 }
 
