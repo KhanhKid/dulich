@@ -102,7 +102,7 @@
 
 
 
-                    <p class="line"><a href="/a/order"><img src="/images/dattour.png" alt=""></a></p>
+                    <p class="line"><a href="/a/order/<?php echo $data->ID?>"><img src="/images/dattour.png" alt=""></a></p>
                 </div>
 
 		<div class="box-tab-detail">
