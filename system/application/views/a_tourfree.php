@@ -100,7 +100,7 @@
                             ?>
                             <li id="menu1">
                                 <a href="#"><?php echo $value->name?></a>
-                                <p class="price">Giá: <?php echo $value->price?> VNĐ</p>
+                                <p class="price">Giá: <?php echo number_format($value->price, 0, ",",".")?> VNĐ</p>
                             </li>
                             <?php
                                 }
