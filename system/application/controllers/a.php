@@ -145,8 +145,9 @@ class A extends Controller {
 					if(!in_array($key, $arr_detail)){
 						$arr_insert[$key] = $value;
 					}
-					$this->db->insert('order', $arr_insert);
+					
 				}
+				$this->db->insert('order', $arr_insert);
 				$notice = "Bạn đã đăng ký thành công, Sunrise sẽ liên hệ với bạn sớm nhất.";
 			//}else{
 				//$notice = "Bạn đăng ký thất bại do nhập sai mã bảo vệ. Bạn có thể liên hệ trực tiếp Hotline: 0919 095 778 (Mr.Tâm) / 0916 065 778 (Mss.Trang)";
