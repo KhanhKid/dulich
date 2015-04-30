@@ -3078,7 +3078,7 @@ ul.form-booking li label {
 
 ul.form-booking li input[type="text"] {
 	width: 350px;
-	height: 30px;
+	height: 18px;
 	padding: 5px;
 	border: solid 1px #ccc;
 	background: url("../images/bg_hover.png") repeat-x;
@@ -3086,7 +3086,7 @@ ul.form-booking li input[type="text"] {
 
 ul.form-booking li input.number-people {
 	width: 150px;
-	height: 30px;
+	height: 15px;
 	padding: 5px;
 	border: solid 1px #ccc;
 }
@@ -3106,7 +3106,6 @@ ul.form-booking li input[type="button"].submit-button {
 	border-radius: 5px;
 	font-weight: bold;
 }
-
 
 .items-contact-booking {
 	clear: both;

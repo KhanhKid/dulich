@@ -12,14 +12,7 @@
 
 	<div class="sub-left">
 
-		<p><img width="100%" src="/img/khachsan.jpg"></p>
-		<p style="margin: 4pt 0in; text-align: right;">
-		<strong>
-		  <a href="/img/khanh-san.pdf">
-			<span style="font-size:14px;"><span style="font-family: arial,helvetica,sans-serif;">Download</span></span>
-		  </a>
-		  </strong>
-		</p>
+		<p>Đang cập nhật.... </p>
 
 	</div>
 

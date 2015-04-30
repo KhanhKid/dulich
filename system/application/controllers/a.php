@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 class A extends Controller {
 
@@ -40,7 +40,7 @@ class A extends Controller {
     function tourfree(){
         $data = array();
         $tour = $this->db->query('SELECT * FROM `tour` WHERE `type` = 4 order by ID DESC');
-        $tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 4  order by ID DESC limit 3');
+        $tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 4 limit 3 order by ID DESC');
         
         $this->layouts->view('a_tourfree',array(
             'tour' => $tour->result(),
@@ -50,7 +50,7 @@ class A extends Controller {
     function tourkhuyenmai(){
         $data = array();
         $tour = $this->db->query('SELECT * FROM `tour` WHERE `type` = 3 order by ID DESC');
-        $tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 3  order by ID DESC limit 3');
+        $tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 3 limit 3 order by ID DESC');
         
         $this->layouts->view('a_tourkhuyenmai',array(
             'tour' => $tour->result(),
@@ -60,7 +60,7 @@ class A extends Controller {
     function tourngoainuoc(){
         $data = array();
         $tour = $this->db->query('SELECT * FROM `tour` WHERE `type` = 2 order by ID DESC');
-        $tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 2  order by ID DESC limit 3');
+        $tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 2 limit 3 order by ID DESC');
         
         $this->layouts->view('a_tourngoainuoc',array(
             'tour' => $tour->result(),
@@ -71,7 +71,7 @@ class A extends Controller {
         $data = array();
         
         $tour = $this->db->query('SELECT * FROM `tour` WHERE `type` = 1 order by ID DESC');
-        $tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 1 order by ID DESC limit 3');
+        $tour_suggest = $this->db->query('SELECT * FROM `tour` WHERE `type` = 1 limit 3 order by ID DESC');
         
         $this->layouts->view('a_tourtrongnuoc',array(
             'tour' => $tour->result(),
@@ -116,7 +116,7 @@ class A extends Controller {
     
     function order(){
         $id = $this->uri->segment(3);
-        $data_detail = $this->db->query('SELECT * FROM `tour_detail` WHERE `ID` = '.$id);
+        $data_detail = $this->db->query('SELECT * FROM `tour_detail` WHERE `ID` = '.$id);\
 		$notice="";
 		if(!empty($_POST))
         {

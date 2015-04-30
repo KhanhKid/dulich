@@ -1,9 +1,10 @@
-﻿<?php
-    $template = "/";
-?>
+﻿
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html>
+
     <head>
+	<?php
+		$template = "/";
+	?>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>Du lịch Sunrise TST Travel </title>
         <meta name="description" content="CÔNG TY DU LỊCH SUNRISE TST TRAVEL - Du lich trong nuoc, Du lich nuoc ngoai, Ve may bay, Thue xe du lich, Dat phong khach san">
@@ -169,4 +170,3 @@
         </div>
     </div>
 </body>
-</html>
