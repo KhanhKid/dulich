@@ -29,7 +29,7 @@
                         </select>
                 </p>
 
-                <p>Image: <input name="img" type="text" value="" style="width:100%" /> <img src="/img/imgtour/<?php echo $data->img ?>">
+                <p>Image: <input name="img" type="text" value="" style="width:100%" /> <br> <center><img width="200px" src="<?php echo $data->img ?>"></center>
                 </p>
 
                 <p>
