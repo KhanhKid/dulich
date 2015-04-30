@@ -304,6 +304,9 @@ if (!isset($_SERVER['PHP_AUTH_USER']) || $_SERVER['PHP_AUTH_USER'] !== 'khanhkid
                         <li>
                             <a href="/ad/alltour"><i class="fa fa-table fa-fw"></i> All Tour</a>
                         </li>
+						<li>
+                            <a href="/ad/allorder"><i class="fa fa-table fa-fw"></i> All Order</a>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->

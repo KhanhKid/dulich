@@ -176,7 +176,7 @@
         </div>
         <div class="tour-in-water">
             <div class="title">
-                <p class="text"><a href="/a/tourfree">TOUR FREE AND EASY</a></p>
+                <p class="text"><a href="/a/tourfree">Tour Hot</a></p>
                 <p class="more"><a href="/a/tourfree">Xem thêm</a></p>
             </div>
             <ul class="content">

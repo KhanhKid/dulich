@@ -147,6 +147,7 @@ class A extends Controller {
 					}
 					
 				}
+                $arr_insert['tourid'] = "SRTST-".$id;
 				$this->db->insert('order', $arr_insert);
 				$notice = "Bạn đã đăng ký thành công, Sunrise sẽ liên hệ với bạn sớm nhất.";
 			//}else{

@@ -12,6 +12,7 @@ class Ad extends Controller {
 
         $this->layouts->view('ad/index',array(
             'c_tour' => $this->db->count_all_results('tour'),
+            'c_order' => $this->db->count_all_results('order'),
             ),'admin');
     }
     function logout(){
@@ -20,9 +21,16 @@ class Ad extends Controller {
     }
 
     function alltour(){
-        $data = $this->db->query('SELECT * FROM `tour`');
+        $data = $this->db->query('SELECT * FROM `tour` ORDER BY `ID` DESC');
         //echo '<pre>',var_dump($data->result()),'</pre>';die();
         $this->layouts->view('ad/alltour',array(
+            'data' => $data->result(),
+        ),'admin');
+    }
+    function allorder(){
+        $data = $this->db->query('SELECT * FROM `order` ORDER BY `ID` DESC');
+        //echo '<pre>',var_dump($data->result()),'</pre>';die();
+        $this->layouts->view('ad/allorder',array(
             'data' => $data->result(),
         ),'admin');
     }
