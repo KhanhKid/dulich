@@ -75,7 +75,7 @@
                                     
                                     <td><center><img width="200px" src="'.$value['img'].'"/></center></td>
                                     <td>'.$value['timestamp'].'</td>
-                                    <td><span  data="'.$value->ID.'" dataname="'.$value->name.'" class="delete glyphicon glyphicon-remove" aria-hidden="true"></td>
+                                    <td></td>
                                     </tr>';
                                     $i++;
                                 }?>
