@@ -16,7 +16,7 @@
 <div id="page-wrapper">
     <div class="row">
         <div class="col-lg-12">
-            <h1 class="page-header">Dashboard</h1>
+            <h1 class="page-header">Thông Tin Tổng Quan</h1>
         </div>
         <!-- /.col-lg-12 -->
     </div>
@@ -39,11 +39,57 @@
                         </div>
                         <div class="col-xs-9 text-right">
                             <div class="huge"><?php echo $c_tour?></div>
-                            <div>Tổng tour</div>
+                            <div>TỔNG TOUR</div>
                         </div>
                     </div>
                 </div>
                 <a href="/ad/alltour">
+                    <div class="panel-footer">
+                        <span class="pull-left">Xem chi tiết</span>
+                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                        <div class="clearfix"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+            <div class="panel panel-yellow">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <i class="fa fa-shopping-cart fa-5x"></i>
+                        </div>
+                        <div class="col-xs-9 text-right">
+                            <div class="huge"><?php echo $c_order?></div>
+                            <div>ĐƠN HÀNG</div>
+                        </div>
+                    </div>
+                </div>
+                <a href="/ad/allorder">
+                    <div class="panel-footer">
+                        <span class="pull-left">Xem chi tiết</span>
+                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
+                        <div class="clearfix"></div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-3 col-md-6">
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <div class="row">
+                        <div class="col-xs-3">
+                            <i class="fa fa-comments fa-5x"></i>
+                        </div>
+                        <div class="col-xs-9 text-right">
+                            <div class="huge"><?php echo $c_news?></div>
+                            <div>TIN TỨC</div>
+                        </div>
+                    </div>
+                </div>
+                <a href="/ad/allmisc">
                     <div class="panel-footer">
                         <span class="pull-left">Xem chi tiết</span>
                         <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -60,12 +106,12 @@
                             <i class="fa fa-tasks fa-5x"></i>
                         </div>
                         <div class="col-xs-9 text-right">
-                            <div class="huge">0</div>
-                            <div>New Tasks!</div>
+                            <div class="huge"><?php echo $c_dairy?></div>
+                            <div>NHẬT KÝ</div>
                         </div>
                     </div>
                 </div>
-                <a href="#">
+                <a href="/ad/allmisc">
                     <div class="panel-footer">
                         <span class="pull-left">View Details</span>
                         <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -82,14 +128,14 @@
                             <i class="fa fa-shopping-cart fa-5x"></i>
                         </div>
                         <div class="col-xs-9 text-right">
-                            <div class="huge"><?php echo $c_order?></div>
-                            <div>Tổng đơn đặt hàng!</div>
+                            <div class="huge"><?php echo $c_place?></div>
+                            <div>THẮNG CẢNH</div>
                         </div>
                     </div>
                 </div>
-                <a href="/ad/allorder">
+                <a href="/ad/allmisc">
                     <div class="panel-footer">
-                        <span class="pull-left">View Details</span>
+                        <span class="pull-left">Xem chi tiết</span>
                         <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
                         <div class="clearfix"></div>
                     </div>
@@ -104,12 +150,12 @@
                             <i class="fa fa-support fa-5x"></i>
                         </div>
                         <div class="col-xs-9 text-right">
-                            <div class="huge">0</div>
-                            <div>Support Tickets!</div>
+                            <div class="huge"><?php echo $c_visa?></div>
+                            <div>VISA</div>
                         </div>
                     </div>
                 </div>
-                <a href="#">
+                <a href="/ad/allmisc">
                     <div class="panel-footer">
                         <span class="pull-left">View Details</span>
                         <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>

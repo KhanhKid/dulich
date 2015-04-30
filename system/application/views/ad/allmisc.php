@@ -9,6 +9,15 @@
 
 
 <div id="page-wrapper">
+    <div class="row">
+        <div class="col-lg-12">
+            <h1 class="page-header">Tất cả các tin tức</h1>
+        </div>
+        <div class="col-lg-12">
+            <a href="/ad/addmisc"><button type="button" class="btn btn-primary">Thêm Tin Tức mới</button></a>
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
     <hr>
     <!-- /.row -->
     <div class="row">
@@ -24,36 +33,49 @@
                             <thead>
                                 <tr>
                                     <th>ID</th>
-                                    <th>Mã Order</th>
                                     <th>Name</th>
-                                    <th>Thông Tin</th>
-                                    <th>Nội dung</th>
-                                    <th>TourID</th>
-                                    <th>Time stamp</th>
+                                    <th>Type</th>
+                                    <th>View</th>
+                                    <th>Image</th>
+                                    <th>Time</th>
                                     <th>Tool</th>
                                 </tr>
                             </thead>
                             <tbody>
+
                                 <?php
                                 $i = 1;
                                 foreach ($data as $key => $value) {
+                                    # code...
+
+                                    $type_name = "";
+                                    switch ($value['type']) {
+                                        case '1':
+                                            $type_name = "Visa";
+                                            break;
+                                        case '2':
+                                            $type_name = "Tin Tức";
+                                            break;
+                                        case '3':
+                                            $type_name = "Nhật Ký";
+                                            break;
+                                        case '4':
+                                            $type_name = "Thắng Cảnh";
+                                            break;
+
+                                        default:
+                                            # code...
+                                            break;
+                                    }
                                     echo '<tr class="odd gradeX">
                                     <td>'.$i.'</td>
-                                    <td>'.$value->ID.'</td>
-                                    <td>'.$value->name.'</td>
-                                    <td>
-                                    Tên: '.$value->name.'<br>
-                                    Địa Chỉ: '.$value->address.'<br>
-                                    SDT: '.$value->phone.'<br>
-                                    Email: '.$value->email.'<br>
-                                    Số Lượng: '.$value->people_max.'<br>
-                                    Trên 5 tuổi: '.$value->childrent_5.'<br>
-                                    Dưới 5 tuổi: '.$value->childrent_max.'<br>
-                                    </td>
-                                    <td>'.$value->content.'</td>
-                                    <td><a href="http://www.sunrisetsttravel.com/i/tour/'.$value->tourid.'" target="_blank">SRTST-'.$value->tourid.'</a></td>
-                                    <td>'.$value->timestamp.'</td>                                    
-                                    <td><span  data="'.$value->ID.'" dataname="'.$value->name.'" class="delete glyphicon glyphicon-remove" aria-hidden="true"></td>                                    
+                                    <td>'.$value['title'].'</td>
+                                    <td>'.$type_name.'</td>
+                                    <td>'.$value['view'].'</td>
+                                    
+                                    <td><center><img width="200px" src="'.$value['img'].'"/></center></td>
+                                    <td>'.$value['timestamp'].'</td>
+                                    <td><span  data="'.$value->ID.'" dataname="'.$value->name.'" class="delete glyphicon glyphicon-remove" aria-hidden="true"></td>
                                     </tr>';
                                     $i++;
                                 }?>
@@ -82,7 +104,7 @@ $(document).ready(function() {
         var r = confirm("Muốn xoá tour '"+name+"'");
         if (r == true) {
             var id = $(this).attr('data');
-            window.location.href="/ad/removeorder/"+id;
+            window.location.href="/ad/remove/"+id;
         }
     });
 });

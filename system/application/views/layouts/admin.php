@@ -299,13 +299,16 @@ if (!isset($_SERVER['PHP_AUTH_USER']) || $_SERVER['PHP_AUTH_USER'] !== 'khanhkid
                             <!-- /input-group -->
                         </li>
                         <li>
-                            <a href="/ad"><i class="fa fa-dashboard fa-fw"></i> Dashboard</a>
+                            <a href="/ad"><i class="fa fa-dashboard fa-fw"></i> Tổng Quan</a>
                         </li>
                         <li>
-                            <a href="/ad/alltour"><i class="fa fa-table fa-fw"></i> All Tour</a>
+                            <a href="/ad/alltour"><i class="fa fa-table fa-fw"></i>Tour</a>
                         </li>
 						<li>
-                            <a href="/ad/allorder"><i class="fa fa-table fa-fw"></i> All Order</a>
+                            <a href="/ad/allorder"><i class="fa fa-table fa-fw"></i>Đặt Hàng</a>
+                        </li>
+                        <li>
+                            <a href="/ad/allmisc"><i class="fa fa-table fa-fw"></i>Thông Tin Khác</a>
                         </li>
                     </ul>
                 </div>
@@ -318,7 +321,7 @@ if (!isset($_SERVER['PHP_AUTH_USER']) || $_SERVER['PHP_AUTH_USER'] !== 'khanhkid
 
     </div>
     <!-- /#wrapper -->
-
+    <hr>
 
 
 </body>
