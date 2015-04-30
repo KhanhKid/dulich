@@ -116,7 +116,7 @@ class A extends Controller {
     
     function order(){
         $id = $this->uri->segment(3);
-        $data_detail = $this->db->query('SELECT * FROM `tour_detail` WHERE `ID` = '.$id);\
+        $data_detail = $this->db->query('SELECT * FROM `tour_detail` WHERE `ID` = '.$id);
 		$notice="";
 		if(!empty($_POST))
         {
