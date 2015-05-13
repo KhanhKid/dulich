@@ -114,6 +114,7 @@ class Ad extends Controller {
                     $notice = "Thêm thắng cảnh thành công";
                     break;               
             }
+            $notice = "===== Thêm Thành Công =======";
             
         }
         $this->layouts->view('ad/addmisc',array('notice'=>$notice),'admin');
@@ -134,7 +135,7 @@ class Ad extends Controller {
                 }
             }
             $this->db->insert('banner', $arr_insert);
-            $notice = "===== Thành Công =======";
+            $notice = "===== Thêm Thành Công =======";
         }
         $this->layouts->view('ad/addbanner',array('notice'=>$notice),'admin');
     }
@@ -148,6 +149,7 @@ class Ad extends Controller {
     function detailtour(){
 
         $id = $this->uri->segment(3);
+        $notice = "";
         if(!empty($_POST))
         {
             $arr_insert = array();
@@ -166,6 +168,7 @@ class Ad extends Controller {
             $this->db->update('tour', $arr_insert);
             $this->db->where('ID', $id);
             $this->db->update('tour_detail', $arr_insert_detail);
+            $notice = "===== Sửa Thành Công =======";
 
         }
 
@@ -174,12 +177,14 @@ class Ad extends Controller {
         //echo '<pre>',var_dump($data->result()),'</pre>';die();
         $this->layouts->view('ad/detailtour',array(
             'data' => $data->result()[0],
+            'notice' => $notice,
             'data_detail' => $data_detail->result()[0],
         ),'admin');
 
         //var_dump($_POST);
     }
     function addtour(){
+        $notice = "";
         if(!empty($_POST))
         {
             $arr_insert = array();
@@ -200,9 +205,10 @@ class Ad extends Controller {
             $this->db->trans_complete();
             $arr_insert_detail['ID'] = $id;
             $this->db->insert('tour_detail', $arr_insert_detail);
+            $notice = "===== Thêm Thành Công =======";
 
         }
-        $this->layouts->view('ad/addtour',array(),'admin');
+        $this->layouts->view('ad/addtour',array('notice'=>$notice),'admin');
     }
     function alltintuc(){
 

@@ -8,7 +8,11 @@
     </div>
     <div class="row">
         <div class="col-lg-12">
-            <center><h3><span style="color:red"><?php echo $notice ?></span></h3></center>
+            <?php
+                if(strlen($notice)>0){
+                    echo '<div class="alert alert-info">'.$notice.'</div>';
+                }
+            ?>
         </div>
         <!-- /.col-lg-12 -->
     </div>

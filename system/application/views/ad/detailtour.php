@@ -6,6 +6,16 @@
         </div>
         <!-- /.col-lg-12 -->
     </div>
+    <div class="row">
+        <div class="col-lg-12">
+            <?php
+                if(strlen($notice)>0){
+                    echo '<div class="alert alert-info">'.$notice.'</div>';
+                }
+            ?>
+        </div>
+        <!-- /.col-lg-12 -->
+    </div>
     <!-- /.row -->
     <div class="row">
         <div class="col-lg-12">

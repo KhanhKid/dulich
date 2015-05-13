@@ -9,7 +9,12 @@
 
     <div class="row">
         <div class="col-lg-12">
-            <strong><?php echo $notice;?></strong>
+            <?php
+                if(strlen($notice)>0){
+                    echo '<div class="alert alert-info">'.$notice.'</div>';
+                }
+            ?>
+        </div>
         <!-- /.col-lg-12 -->
     </div>
     <div class="row">
