@@ -137,6 +137,7 @@ class Ad extends Controller {
             }
             $this->db->where('ID', $id);
             $this->db->update('tour', $arr_insert);
+            $this->db->where('ID', $id);
             $this->db->update('tour_detail', $arr_insert_detail);
 
         }
