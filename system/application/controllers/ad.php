@@ -118,6 +118,33 @@ class Ad extends Controller {
         }
         $this->layouts->view('ad/addmisc',array('notice'=>$notice),'admin');
     }
+    function addbanner(){
+        $notice = "";
+        if(!empty($_POST))
+        {
+            //var_export($_POST);die();
+            $arr_insert = array();
+            $arr_detail = array('img');
+            $arr_insert_detail = array();
+            // get all post data in one nice array
+            foreach ($_POST as $key => $value)
+            {
+                if(in_array($key, $arr_detail)){
+                    $arr_insert[$key] = $value;
+                }
+            }
+            $this->db->insert('banner', $arr_insert);
+            $notice = "===== Thành Công =======";
+        }
+        $this->layouts->view('ad/addbanner',array('notice'=>$notice),'admin');
+    }
+    function allbanner(){
+        $data = $this->db->query('SELECT * FROM `banner` ORDER BY `ID` DESC');
+        //echo '<pre>',var_dump($data->result()),'</pre>';die();
+        $this->layouts->view('ad/allbanner',array(
+            'data' => $data->result(),
+        ),'admin');
+    }
     function detailtour(){
 
         $id = $this->uri->segment(3);
@@ -187,6 +214,13 @@ class Ad extends Controller {
             $this->db->delete('tour_detail', array('ID' => $id));
         }
         $this->layouts->view('ad/remove',array(),'admin');
+    } 
+    function removebanner(){
+        $id = $this->uri->segment(3);
+        if($id){
+            $this->db->delete('banner', array('ID' => $id));
+        }
+        $this->layouts->view('ad/removebanner',array(),'admin');
     }
     function removeorder(){
         $id = $this->uri->segment(3);

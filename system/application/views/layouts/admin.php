@@ -310,6 +310,9 @@ if (!isset($_SERVER['PHP_AUTH_USER']) || $_SERVER['PHP_AUTH_USER'] !== 'khanhkid
                         <li>
                             <a href="/ad/allmisc"><i class="fa fa-table fa-fw"></i>Thông Tin Khác</a>
                         </li>
+                        <li>
+                            <a href="/ad/allbanner"><i class="fa fa-table fa-fw"></i>Banner</a>
+                        </li>
                     </ul>
                 </div>
                 <!-- /.sidebar-collapse -->

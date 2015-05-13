@@ -17,6 +17,7 @@ class A extends Controller {
         $tourngoainuoc = $this->db->query('SELECT * FROM `tour` WHERE `type` = 2 order by ID DESC limit 3');
         $tourkhuyenmai = $this->db->query('SELECT * FROM `tour` WHERE `type` = 3 order by ID DESC limit 3');
         $tourfree = $this->db->query('SELECT * FROM `tour` WHERE `type` = 4 order by ID DESC limit  3');
+        $banner = $this->db->query('SELECT * FROM `banner` WHERE `status` = 0 order by id Desc');
         
         $visa_all = $this->db->query('SELECT * FROM `visa`  order by ID Desc limit 5 ' );
         $news_all = $this->db->query('SELECT * FROM `news` order by ID Desc limit 10');
@@ -33,6 +34,7 @@ class A extends Controller {
             'news_all' => $news_all->result(),
             'dairy_f' => $dairy_all->result()[0],
             'dairy_all' => $dairy_all->result(),
+            'banner' => $banner->result(),
         ));
     }
 

@@ -2,50 +2,15 @@
     <div class="wrapper_slider">
          <div class="callbacks_container">
           <ul class="rslides" id="slider4">
-            <li>
-              <img src="/img/imgbanner/1.jpg" alt="">
-              <p class="caption"></p>
-            </li>
-            <li>
-              <img src="/img/imgbanner/2.jpg" alt="">
-              <p class="caption"></p>
-            </li>
-            <li>
-              <img src="/img/imgbanner/3.jpg" alt="">
-              <p class="caption"></p>
-            </li>
-            <li>
-              <img src="/img/imgbanner/4.jpg" alt="">
-              <p class="caption"></p>
-            </li>
-            <li>
-              <img src="/img/imgbanner/5.jpg" alt="">
-              <p class="caption"></p>
-            </li>
-            <li>
-              <img src="/img/imgbanner/6.jpg" alt="">
-              <p class="caption"></p>
-            </li>
-            <li>
-              <img src="/img/imgbanner/7.jpg" alt="">
-              <p class="caption"></p>
-            </li>
-            <li>
-              <img src="/img/imgbanner/8.jpg" alt="">
-              <p class="caption"></p>
-            </li>
-            <li>
-              <img src="/img/imgbanner/9.jpg" alt="">
-              <p class="caption"></p>
-            </li>
-            <li>
-              <img src="/img/imgbanner/10.jpg" alt="">
-              <p class="caption"></p>
-            </li>
-			<li>
-              <img src="/img/imgbanner/5.jpg" alt="">
-              <p class="caption"></p>
-            </li>
+            <?php 
+                foreach ($banner as $key => $value) {
+                    # code...
+                    echo '<li>
+                      <img src="'.$value->img.'" alt="">
+                      <p class="caption"></p>
+                    </li>';
+                }
+            ?>
             </ul>
         </div>
     </div>
