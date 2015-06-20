@@ -153,7 +153,7 @@
                         </div>
                         <ul class="items-address">
                             <li class="name">CÔNG TY TNHH THƯƠNG MẠI VÀ DỊCH VỤ DU LỊCH SUNRISE</li>
-                            <li><strong>Address:</strong> 18/4B Đường Đông Hưng Thuận 2, Phường Đông Hưng Thuận, Quận 12, TP.HCM, Việt Nam</li>
+                            <li><strong>Add:</strong> 18/4B Đường Đông Hưng Thuận 2, Phường Đông Hưng Thuận, Quận 12, TP.HCM, Việt Nam</li>
                             <li><strong>Tel:</strong> (08) 37152530 - <strong> Fax: </strong>(08) 37152530</li>
                             <li><strong>Email:</strong> sunrisetsttravel@gmail.com</li>
                             <li><strong>Hotline: 0919 095 778 (Mr.Tâm) / 0916 065 778 (Mss.Trang)</strong></li>
